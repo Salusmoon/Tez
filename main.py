@@ -3,8 +3,8 @@ import random
 import math
 from scipy import signal
 from scipy.signal import find_peaks
-
-
+import matplotlib.pyplot as plt
+import pandas as pd
 
 edge = 100
 wawe_points = []
@@ -100,10 +100,23 @@ def distance_for_delta(peak_diff):
         distance = peak_diff[i]*((Vp*Vs)/(Vp-Vs))
         distance_delta.append(distance)
     return distance_delta
-    
+
+def data(sensor , distance):
+    x = []
+    y = []
+    r = []
+    for i in range(len(sensor)):
+        x.append(sensor[i][0])  
+        y.append(sensor[i][1])
+        r.append(distance[i])
+    dict = {"x": x,"y": y, "r" : r}
+    data= pd.DataFrame(data=dict)
+    return data
 
 
-
+def circle(sensor, distance):
+    circle = plt.Circle((sensor[0], sensor[1]), distance)
+    return circle
 
 matrix = build_matrix(edge)
 wawe_create(matrix)
@@ -116,7 +129,35 @@ time_s = time[1]
 delta_to_sensor = delta(time_p,time_s, 0.001)
 peak_time = delta_time_dif(delta_to_sensor, 0.001)
 distance_delta = distance_for_delta(peak_time)
+data = data(sensor_points, distance_delta)
 
+
+plt.scatter(data["x"],data["y"], marker = "o", s = )    # s alan heasbı yapıyor bunun daire için olan formülü yazmam gerek
+
+# s = r*r 
+
+#print(data["r"]*data["r"])
+plt.savefig('plot.png')
+
+#fig, ax = plt.subplots(1, 1)
+#ax.circles(data["x"], data["y"], data["r"])
+#fig.savefig('plotcircles.png'   )
+#fig.show()
+
+
+
+
+
+    
+
+
+
+#fig, ax = plt.subplots()
+#for i in range(len(sensor_points)):
+#    circle = circle(sensor_points[i], distance_delta[i])
+#    ax.add_artist(circle)
+
+#fig.savefig("abc.png")
 
 
 
@@ -128,6 +169,7 @@ print("timeS: " , time_s)
 print("deltas : " , delta_to_sensor)
 print("peak time : " , peak_time)
 print("distance for delta : " , distance_delta)
+print(data)
 np.savetxt('output.txt', matrix, fmt='%s')   
 
 
