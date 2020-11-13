@@ -140,7 +140,7 @@ def draw_grafik(data, wawe, deneme):
     for a, b, size, color in zip(data["x"], data["y"], data["r"], data["rgb"]):
 
     # plot circles using the RGBA colors
-        circle = plt.Circle((a, b), size, color=color, fill=False, clip_on=False)
+        circle = plt.Circle((a, b), size, color=color, fill=False)
         ax.add_artist(circle)
     
     plt.scatter(data["x"],data["y"], color=data["rgb"], marker = 'x')
@@ -152,12 +152,21 @@ def draw_grafik(data, wawe, deneme):
     plt.close
 
 
+def kesişim(data):
+    
+    
+    
+    pass
+
+
+
+
 
 with PdfPages(r'plot.pdf') as export_pdf:
 
     file = open("deneme ", "w")
 
-    for deneme in range(50):
+    for deneme in range(10):
 
         matrix = build_matrix(edge)
         wawe_create(matrix)
