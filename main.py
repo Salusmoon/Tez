@@ -6,7 +6,7 @@ from scipy.signal import find_peaks
 import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.backends.backend_pdf import PdfPages
-
+from math import cos, sin, pi, sqrt, atan2
 
 
 edge = 100
@@ -19,9 +19,9 @@ def build_matrix(edge):
     d2 = random.randint(1, 99)   #38
     d3 = random.randint(1, 99)   #64
     d4 = random.randint(1, 99)   #73
-    matrix[0][d1] = "A"  #Top level 
-    matrix[99][d2] = "A" # bottom level
-    matrix[d3][0] = "A"   #left side
+    matrix[d1][99] = "A"  #Top level 
+    matrix[d2][99] = "A" # bottom level
+    matrix[d3][99] = "A"   #left side
     matrix[d4][99] = "A"   #right side
     return matrix
 
@@ -116,16 +116,18 @@ def distance_for_delta(peak_diff):
     return distance_delta
 
 def data(sensor , distance):
+    sensors=[]
     x = []
     y = []
     r = []
     rgb =[]
     for i in range(len(sensor)):
+        sensors.append(i)
         x.append(sensor[i][0])  
         y.append(sensor[i][1])
         r.append(distance[i])
         rgb.append(np.random.rand(3,))
-    dict = {"x": x,"y": y, "r" : r,"rgb": rgb}
+    dict = {"Sensors": sensors, "x": x,"y": y, "r" : r,"rgb": rgb}
     data= pd.DataFrame(data=dict)
     return data
 
@@ -135,7 +137,7 @@ def circle(sensor, distance):
     return circle
 
 def draw_grafik(data, wawe, deneme):
-    plt.figure()
+    plt.figure(figsize=(100,100))
     ax = plt.gca()
     for a, b, size, color in zip(data["x"], data["y"], data["r"], data["rgb"]):
 
@@ -152,21 +154,76 @@ def draw_grafik(data, wawe, deneme):
     plt.close
 
 
-def kesişim(data):
-    
-    
-    
-    pass
+def intersection(data):
+    x_matrix =  np.empty([len(data["Sensors"]),len(data["Sensors"])],float)
+    y_matrix =  np.empty([len(data["Sensors"]),len(data["Sensors"])],float)
+    x_matrix[:] = None
+    y_matrix[:] = None
+
+    for i in range(len(data["Sensors"])):
+        for j in range(len(data["Sensors"])):
+            if( i == j) or (i>=1 and j<=i):
+                pass
+            else:
+                x1,y1,r1 = data["x"][i],data["y"][i],data["r"][i]
+                x2,y2,r2 = data["x"][j],data["y"][j],data["r"][j]    
+                dx,dy = x2-x1,y2-y1
+                d = sqrt(dx*dx+dy*dy)
+
+                if d > r1+r2:
+                    pass
+                    #print("#1")
+                    #print("çözüm yok")
+                elif (d < abs(r1-r2)):
+                    pass
+                    #print("#2")
+                    #print("çözüm yok")
+                elif d == 0 and r1 == r2:
+                    pass
+                    #print("#3")
+                    #print("çözüm yok")
+                else:
+                    a = (r1*r1-r2*r2+d*d)/(2*d)
+                    h = sqrt(r1*r1-a*a)
+                    xm = x1 + a*dx/d
+                    ym = y1 + a*dy/d
+                    xs1 = xm + h*dy/d
+                    xs2 = xm - h*dy/d
+                    ys1 = ym - h*dx/d
+                    ys2 = ym + h*dx/d
+
+
+                    #print(data["Sensors"][i] , data["Sensors"][j])
+
+                    if (xs1>=0 and xs1<=100) and (ys1>=0 and ys1<=100):
+                        #x_array.append(xs1)
+                        #y_array.append(ys1)
+                        x_matrix[i][j]=xs1
+                        y_matrix[i][j]= ys1
+                        #print("x :", xs1,"y :", ys1)
+                    if (xs2>=0 and xs2<=100) and (ys2>=0 and ys2<=100):
+                        #x_array.append(xs2)
+                        #y_array.append(ys2)
+                        y_matrix[j][i]= ys2
+                        x_matrix[j][i]= xs2
+                        #print("x :", xs2,"y :", ys2)
+                    #x_matrix[i][j]=x_array[0]
+                    #y_matrix[i][j]= y_array[0]
+                    #if len(x_array)==2:
+                        #y_matrix[j][i]= y_array[1]
+                        #x_matrix[j][i]=x_array[1]
+    return x_matrix,y_matrix
 
 
 
+# deneme ortamları :  1 tane yukarıda, 2 tane L şeklinde, 1 tane random 50 şer  
 
 
 with PdfPages(r'plot.pdf') as export_pdf:
 
-    file = open("deneme ", "w")
+    file = open("result.txt", "w")
 
-    for deneme in range(10):
+    for deneme in range(100):
 
         matrix = build_matrix(edge)
         wawe_create(matrix)
@@ -181,22 +238,20 @@ with PdfPages(r'plot.pdf') as export_pdf:
         distance_delta = distance_for_delta(peak_time)
         data_sensor = data(sensor_point, distance_delta)
         draw_grafik(data_sensor, wawe_points, deneme)
-        file.write("deneme sayısı :" +  str(deneme) + "\n")
-        file.write("TİME P : \n" )
-        file.writelines(["%s\n" % item  for item in time_p])
-        file.write("TİME S : \n")
-        file.writelines(["%s\n" % item  for item in time_s])
-        file.write("distances_hipo: \n")
-        file.writelines(["%s\n" % item  for item in distances_hipo])
+        result_matrix = intersection(data_sensor)
+        result_x= result_matrix[0]
+        result_y = result_matrix[1]
+        file.write("DENEME SAYISI :" +  str(deneme) + "\n")
         file.write("SENSOR : \n")
-        np.savetxt(file, data_sensor.values[:,:-2], fmt='%d', delimiter="\t", header="X\tY")
-        file.write("yarıçaplar delta için : \n")
-        file.writelines(["%s\n" % item  for item in data_sensor["r"]])
-        print(data_sensor)
-        file.write("WAWE:  \n")
-        file.write(str(wawe_points[0]) + " " + str(wawe_points[1]) + " \n")
-        file.write("  \n  ")
-
+        np.savetxt(file, data_sensor.values[:,:-2], fmt='%d', delimiter="\t", header="\tX\tY")
+        file.write("WAWE:    ")
+        file.write(str(wawe_points[0]) + "    " + str(wawe_points[1]) + " \n")
+        file.write("WAWE_PRED \n")
+        file.write("X :\n")
+        np.savetxt(file, result_x, fmt='%10.5f')
+        file.write("Y :\n")
+        np.savetxt(file, result_y, fmt='%10.5f')
+        file.write("\n")
 
 
 #print("wawe: " , wawe_points)

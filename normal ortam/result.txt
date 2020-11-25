@@ -1,0 +1,2000 @@
+DENEME SAYISI :0
+SENSOR : 
+# 	X	Y
+0	0	63
+1	28	0
+2	70	99
+3	99	11
+WAWE:    61    57 
+WAWE_PRED 
+X :
+       nan        nan   60.99973   39.19423
+  60.97718        nan   60.37093        nan
+       nan   46.31113        nan   60.22131
+  61.08654   60.25718        nan        nan
+Y :
+       nan        nan   56.61164   15.82384
+  56.39991        nan   56.75004        nan
+       nan   62.71481        nan   56.78442
+  57.50344   56.81478        nan        nan
+
+DENEME SAYISI :1
+SENSOR : 
+# 	X	Y
+0	0	62
+1	4	0
+2	21	99
+3	99	28
+WAWE:    36    44 
+WAWE_PRED 
+X :
+       nan        nan   35.88177   35.59300
+  35.91258        nan   35.96723        nan
+       nan        nan        nan   35.72770
+  39.29675   35.77944   76.85909        nan
+Y :
+       nan        nan   44.32236   43.74793
+  44.38504        nan   44.34569        nan
+       nan        nan        nan   44.28066
+  54.53236   44.48046   89.46726        nan
+
+DENEME SAYISI :2
+SENSOR : 
+# 	X	Y
+0	0	1
+1	17	0
+2	21	99
+3	99	71
+WAWE:    35    23 
+WAWE_PRED 
+X :
+       nan        nan   35.02413   34.95009
+  34.78397        nan   35.22338   42.67122
+       nan    0.69044        nan   35.03662
+  32.45587   34.71904        nan        nan
+Y :
+       nan        nan   22.94891   23.06662
+  23.32755        nan   22.98592   14.19271
+       nan   24.38119        nan   22.95121
+  26.59416   23.37691        nan        nan
+
+DENEME SAYISI :3
+SENSOR : 
+# 	X	Y
+0	0	38
+1	65	0
+2	92	99
+3	99	89
+WAWE:    32    82 
+WAWE_PRED 
+X :
+       nan        nan   53.18142   54.66572
+  32.02241        nan        nan        nan
+  32.35890   32.26306        nan   31.85715
+  31.99853   32.00110        nan        nan
+Y :
+       nan        nan   50.65625   38.32210
+  82.30587        nan        nan        nan
+  82.06071   82.40188        nan   83.93889
+  82.32312   82.29733        nan        nan
+
+DENEME SAYISI :4
+SENSOR : 
+# 	X	Y
+0	0	78
+1	41	99
+2	73	0
+3	99	16
+WAWE:    52    78 
+WAWE_PRED 
+X :
+       nan   51.99894        nan   23.23142
+       nan        nan   43.68214   53.34470
+  51.99987   52.78479        nan        nan
+  51.99665   56.08300   52.96562        nan
+Y :
+       nan   77.66873        nan   31.47795
+       nan        nan   75.15034   78.41825
+  77.88521   78.09261        nan        nan
+  77.40952   80.33176   78.13920        nan
+
+DENEME SAYISI :5
+SENSOR : 
+# 	X	Y
+0	0	80
+1	76	0
+2	91	99
+3	99	14
+WAWE:    22    83 
+WAWE_PRED 
+X :
+       nan        nan        nan    5.04187
+  21.85913        nan        nan        nan
+       nan   22.23200        nan   21.97092
+  21.70638   19.16864        nan        nan
+Y :
+       nan        nan        nan   58.58553
+  82.48562        nan        nan        nan
+       nan   82.72916        nan   83.87504
+  83.58230   80.65549        nan        nan
+
+DENEME SAYISI :6
+SENSOR : 
+# 	X	Y
+0	0	70
+1	7	99
+2	50	0
+3	99	80
+WAWE:    74    24 
+WAWE_PRED 
+X :
+       nan   74.34828        nan   74.18229
+       nan        nan        nan   74.09325
+  74.17775   74.11345        nan   74.16135
+       nan        nan   60.33085        nan
+Y :
+       nan   24.18030        nan   23.91204
+       nan        nan        nan   23.95152
+  23.90474   23.96959        nan   23.92131
+       nan        nan   32.39249        nan
+
+DENEME SAYISI :7
+SENSOR : 
+# 	X	Y
+0	0	37
+1	62	0
+2	96	99
+3	99	98
+WAWE:    99    16 
+WAWE_PRED 
+X :
+       nan        nan   99.21652   99.13349
+  98.97414        nan   98.49643   98.66030
+       nan   43.26296        nan   88.52043
+       nan   45.06202        nan        nan
+Y :
+       nan        nan   16.39593   16.00011
+  15.26148        nan   16.37104   16.00070
+       nan   35.34011        nan   16.67240
+       nan   36.23679        nan        nan
+
+DENEME SAYISI :8
+SENSOR : 
+# 	X	Y
+0	0	4
+1	60	0
+2	69	99
+3	99	30
+WAWE:    19    99 
+WAWE_PRED 
+X :
+       nan        nan   84.90218        nan
+  19.43598        nan        nan        nan
+  19.00212   19.00038        nan   19.00297
+  18.94039   18.53194        nan        nan
+Y :
+       nan        nan   51.59620        nan
+  99.37306        nan        nan        nan
+  99.46045   99.19413        nan   99.54477
+  99.47272   98.99922        nan        nan
+
+DENEME SAYISI :9
+SENSOR : 
+# 	X	Y
+0	0	21
+1	8	99
+2	65	0
+3	99	2
+WAWE:    22    44 
+WAWE_PRED 
+X :
+       nan   21.35459        nan        nan
+       nan        nan   22.49790   21.67380
+  21.78399   48.09689        nan        nan
+  21.53812   62.00835   20.98421        nan
+Y :
+       nan   43.92944        nan        nan
+       nan        nan   44.21933   44.00783
+  43.52189   58.95814        nan        nan
+  43.75713   81.84747   42.71286        nan
+
+DENEME SAYISI :10
+SENSOR : 
+# 	X	Y
+0	0	14
+1	11	0
+2	15	99
+3	99	7
+WAWE:    49    39 
+WAWE_PRED 
+X :
+       nan        nan   48.86832        nan
+  47.91161        nan   49.46808        nan
+       nan        nan        nan   48.64059
+  48.80232   49.14043   72.32332        nan
+Y :
+       nan        nan   38.50167        nan
+  40.32341        nan   38.84136        nan
+       nan        nan        nan   38.37474
+  38.63286   39.16314   59.99811        nan
+
+DENEME SAYISI :11
+SENSOR : 
+# 	X	Y
+0	0	62
+1	17	99
+2	54	0
+3	99	12
+WAWE:    65    74 
+WAWE_PRED 
+X :
+       nan   64.89061        nan   28.94957
+       nan        nan        nan   39.30747
+  64.92509   64.80213        nan        nan
+  64.91752   64.77216   64.85988        nan
+Y :
+       nan   74.05026        nan    2.68792
+       nan        nan        nan   49.82301
+  73.86307   73.88116        nan        nan
+  73.90446   73.82421   73.87269        nan
+
+DENEME SAYISI :12
+SENSOR : 
+# 	X	Y
+0	0	65
+1	26	99
+2	98	0
+3	99	50
+WAWE:    47    55 
+WAWE_PRED 
+X :
+       nan   46.96375   28.01516        nan
+       nan        nan   48.35455   47.26309
+  46.80392   60.23804        nan        nan
+       nan   74.56802   47.21619        nan
+Y :
+       nan   55.08001   26.02372        nan
+       nan        nan   55.77132   55.22414
+  54.35138   64.41386        nan        nan
+       nan   95.90292   54.73679        nan
+
+DENEME SAYISI :13
+SENSOR : 
+# 	X	Y
+0	0	91
+1	38	99
+2	79	0
+3	99	83
+WAWE:    92    28 
+WAWE_PRED 
+X :
+       nan   91.33319        nan   91.88060
+       nan        nan   50.18761   92.31134
+  91.72613   91.95087        nan   90.90337
+       nan        nan   81.27599        nan
+Y :
+       nan   27.33400        nan   28.12658
+       nan        nan   10.50194   28.07241
+  27.90144   27.79783        nan   28.26224
+       nan        nan   30.58209        nan
+
+DENEME SAYISI :14
+SENSOR : 
+# 	X	Y
+0	0	42
+1	37	99
+2	52	0
+3	99	54
+WAWE:    71    57 
+WAWE_PRED 
+X :
+       nan   71.07812        nan   72.66349
+       nan        nan   17.09538   70.45237
+  71.12917   70.88128        nan        nan
+  70.72142   87.67096   70.49895        nan
+Y :
+       nan   57.11108        nan   42.67895
+       nan        nan   48.80233   56.60968
+  56.86893   56.95171        nan        nan
+  58.70104   80.33307   57.07704        nan
+
+DENEME SAYISI :15
+SENSOR : 
+# 	X	Y
+0	0	7
+1	19	99
+2	60	0
+3	99	67
+WAWE:    16    76 
+WAWE_PRED 
+X :
+       nan   15.69247        nan        nan
+  12.88683        nan   16.60622   16.13718
+  16.48098   37.10295        nan        nan
+  16.13267        nan   16.10113        nan
+Y :
+       nan   75.90228        nan        nan
+  76.48171        nan   75.78978   75.84296
+  75.71794   84.27833        nan        nan
+  75.80054        nan   75.49835        nan
+
+DENEME SAYISI :16
+SENSOR : 
+# 	X	Y
+0	0	83
+1	20	99
+2	78	0
+3	99	18
+WAWE:    6    69 
+WAWE_PRED 
+X :
+       nan    6.65216    5.22517    6.01910
+       nan        nan    6.05829    6.27250
+  14.06356   52.58679        nan        nan
+  15.33311        nan    6.69249        nan
+Y :
+       nan   69.18480   68.58443   68.89746
+       nan        nan   69.45783   69.35768
+  76.89039   96.71695        nan        nan
+  83.08342        nan   70.10876        nan
+
+DENEME SAYISI :17
+SENSOR : 
+# 	X	Y
+0	0	90
+1	24	0
+2	73	99
+3	99	33
+WAWE:    32    74 
+WAWE_PRED 
+X :
+       nan        nan   32.14816   28.64624
+  32.34683        nan   78.26329        nan
+       nan   31.87263        nan   31.94372
+  33.23866   32.00724        nan        nan
+Y :
+       nan        nan   73.79827   68.19650
+  74.19866        nan   51.28944        nan
+       nan   74.25047        nan   74.13271
+  76.17280   74.23608        nan        nan
+
+DENEME SAYISI :18
+SENSOR : 
+# 	X	Y
+0	0	7
+1	52	99
+2	69	0
+3	99	61
+WAWE:    71    19 
+WAWE_PRED 
+X :
+       nan   70.95526        nan   71.03475
+       nan        nan   63.34011   70.49429
+  71.06726   68.40166        nan   82.19842
+  48.33735        nan   71.39777        nan
+Y :
+       nan   19.22094        nan   18.75008
+       nan        nan   17.78792   19.11282
+  18.55184   18.65707        nan   13.20023
+  60.36198        nan   18.51203        nan
+
+DENEME SAYISI :19
+SENSOR : 
+# 	X	Y
+0	0	31
+1	63	0
+2	67	99
+3	99	49
+WAWE:    15    47 
+WAWE_PRED 
+X :
+       nan        nan        nan   19.71833
+  14.93472        nan        nan        nan
+       nan   15.03508        nan   15.01774
+  15.02211   15.01846        nan        nan
+Y :
+       nan        nan        nan   21.24360
+  47.15407        nan        nan        nan
+       nan   47.25616        nan   47.27358
+  47.07284   47.23928        nan        nan
+
+DENEME SAYISI :20
+SENSOR : 
+# 	X	Y
+0	0	22
+1	11	99
+2	34	0
+3	99	52
+WAWE:    55    72 
+WAWE_PRED 
+X :
+       nan   54.61612        nan   73.25006
+       nan        nan        nan        nan
+  53.95764   54.89098        nan        nan
+  55.09561        nan   55.46261        nan
+Y :
+       nan   71.93074        nan   11.49148
+       nan        nan        nan        nan
+  72.64161   72.37871        nan        nan
+  71.40115        nan   72.21127        nan
+
+DENEME SAYISI :21
+SENSOR : 
+# 	X	Y
+0	0	92
+1	19	0
+2	95	99
+3	99	23
+WAWE:    57    93 
+WAWE_PRED 
+X :
+       nan        nan   56.61994   18.46402
+  56.65033        nan   99.39506        nan
+  56.34568   56.75289        nan   56.75837
+  56.65354   56.79269        nan        nan
+Y :
+       nan        nan   94.30088   38.42584
+  93.36076        nan   60.58393        nan
+  98.02290   93.31933        nan   93.28260
+  93.21950   93.30322        nan        nan
+
+DENEME SAYISI :22
+SENSOR : 
+# 	X	Y
+0	0	38
+1	16	99
+2	88	0
+3	99	90
+WAWE:    12    32 
+WAWE_PRED 
+X :
+       nan   12.12162   11.40112   11.89236
+       nan        nan   11.97081   11.55424
+  12.84964   80.54891        nan        nan
+   1.78529        nan   11.81487        nan
+Y :
+       nan   32.44624   31.08681   31.97095
+       nan        nan   32.45520   32.48173
+  34.44127   82.33018        nan        nan
+  51.21327        nan   32.08744        nan
+
+DENEME SAYISI :23
+SENSOR : 
+# 	X	Y
+0	0	43
+1	15	99
+2	32	0
+3	99	36
+WAWE:    52    51 
+WAWE_PRED 
+X :
+       nan   51.34024        nan   50.13684
+       nan        nan        nan   52.34729
+  51.36161   51.22947        nan        nan
+  51.57910   70.53821   51.96727        nan
+Y :
+       nan   51.25708        nan   29.20518
+       nan        nan        nan   52.04066
+  51.12311   51.17296        nan        nan
+  49.60278   76.29521   50.88961        nan
+
+DENEME SAYISI :24
+SENSOR : 
+# 	X	Y
+0	0	67
+1	80	0
+2	86	99
+3	99	65
+WAWE:    59    17 
+WAWE_PRED 
+X :
+       nan        nan   59.22628   58.87767
+       nan        nan        nan        nan
+       nan   59.58557        nan   57.84891
+       nan   59.15526        nan        nan
+Y :
+       nan        nan   17.27382   16.86155
+       nan        nan        nan        nan
+       nan   17.15699        nan   17.73798
+       nan   16.63154        nan        nan
+
+DENEME SAYISI :25
+SENSOR : 
+# 	X	Y
+0	0	31
+1	13	99
+2	64	0
+3	99	39
+WAWE:    84    90 
+WAWE_PRED 
+X :
+       nan   83.80202        nan        nan
+       nan        nan        nan   45.77257
+  83.62038   83.82757        nan        nan
+  83.91175   83.77781   84.59094        nan
+Y :
+       nan   90.30991        nan        nan
+       nan        nan        nan   35.64068
+  90.56573   90.52060        nan        nan
+  90.15456   90.11487   90.35001        nan
+
+DENEME SAYISI :26
+SENSOR : 
+# 	X	Y
+0	0	72
+1	43	99
+2	50	0
+3	99	26
+WAWE:    45    11 
+WAWE_PRED 
+X :
+       nan   44.21694        nan   44.90605
+       nan        nan   45.27202   45.03975
+       nan   53.12899        nan        nan
+  75.18751        nan   45.06368        nan
+Y :
+       nan   11.00841        nan   11.51399
+       nan        nan   11.02933   11.02364
+       nan   11.58488        nan        nan
+  76.68496        nan   10.93768        nan
+
+DENEME SAYISI :27
+SENSOR : 
+# 	X	Y
+0	0	59
+1	11	99
+2	27	0
+3	99	48
+WAWE:    59    58 
+WAWE_PRED 
+X :
+       nan   58.64114        nan   57.66724
+       nan        nan        nan   58.74776
+  58.65659   59.02369        nan   92.61008
+  58.62766   70.83994   58.84718        nan
+Y :
+       nan   57.26952        nan   48.21726
+       nan        nan        nan   57.39155
+  57.91252   57.71034        nan    7.16358
+  56.86108   78.25649   57.80793        nan
+
+DENEME SAYISI :28
+SENSOR : 
+# 	X	Y
+0	0	47
+1	35	0
+2	57	99
+3	99	33
+WAWE:    77    9 
+WAWE_PRED 
+X :
+       nan        nan   76.06074   76.54256
+  77.07331        nan   77.46695   77.51231
+       nan    0.18153        nan   77.29837
+  84.00111   66.49399        nan        nan
+Y :
+       nan        nan    8.31483    9.27713
+  10.37374        nan    8.62182    8.39532
+       nan   25.79636        nan    8.58381
+  62.01972   29.76418        nan        nan
+
+DENEME SAYISI :29
+SENSOR : 
+# 	X	Y
+0	0	74
+1	11	0
+2	67	99
+3	99	62
+WAWE:    26    25 
+WAWE_PRED 
+X :
+       nan        nan   25.78535   26.38573
+  26.04645        nan   28.26797   39.62281
+       nan   22.42678        nan   26.84874
+       nan   26.67588        nan        nan
+Y :
+       nan        nan   25.04192   25.36287
+  25.18033        nan   23.71206    6.41708
+       nan   27.01616        nan   24.45927
+       nan   24.79337        nan        nan
+
+DENEME SAYISI :30
+SENSOR : 
+# 	X	Y
+0	0	52
+1	46	0
+2	50	99
+3	99	13
+WAWE:    24    24 
+WAWE_PRED 
+X :
+       nan   21.21674   23.94897   24.44195
+  27.90082        nan   70.45403        nan
+       nan   23.37305        nan   24.36300
+  37.12191   24.57429        nan        nan
+Y :
+       nan   21.28148   23.36044   23.77999
+  27.19432        nan   21.65898        nan
+       nan   23.56125        nan   23.21910
+  55.96758   24.65867        nan        nan
+
+DENEME SAYISI :31
+SENSOR : 
+# 	X	Y
+0	0	41
+1	54	0
+2	66	99
+3	99	47
+WAWE:    64    27 
+WAWE_PRED 
+X :
+       nan        nan   63.82292   63.96496
+  63.80223        nan   63.51059   80.16499
+       nan   51.22580        nan   64.34805
+  61.89038   64.56387        nan        nan
+Y :
+       nan        nan   27.03292   27.69855
+  26.93871        nan   27.04305   11.71201
+       nan   28.53211        nan   27.01895
+  61.92904   26.64925        nan        nan
+
+DENEME SAYISI :32
+SENSOR : 
+# 	X	Y
+0	0	19
+1	5	99
+2	98	0
+3	99	96
+WAWE:    15    87 
+WAWE_PRED 
+X :
+       nan   14.99787        nan   69.95432
+       nan        nan        nan   14.79186
+  15.60246        nan        nan        nan
+  14.76876        nan   14.86399        nan
+Y :
+       nan   87.37444        nan   16.47143
+       nan        nan        nan   87.20040
+  87.23902        nan        nan        nan
+  87.42429        nan   86.53556        nan
+
+DENEME SAYISI :33
+SENSOR : 
+# 	X	Y
+0	0	51
+1	80	99
+2	91	0
+3	99	51
+WAWE:    67    41 
+WAWE_PRED 
+X :
+       nan   67.26793        nan   67.24186
+       nan        nan   67.38698   67.18070
+  67.25250        nan        nan        nan
+  67.24186        nan   67.22449        nan
+Y :
+       nan   41.04882        nan   40.87420
+       nan        nan   41.02280   41.06806
+  40.94509        nan        nan        nan
+  61.12580        nan   40.92884        nan
+
+DENEME SAYISI :34
+SENSOR : 
+# 	X	Y
+0	0	57
+1	41	0
+2	93	99
+3	99	56
+WAWE:    77    48 
+WAWE_PRED 
+X :
+       nan        nan   76.82843   76.87464
+  76.82320        nan   76.71187   90.15313
+       nan   60.42999        nan   77.04099
+  77.02885   77.11182        nan        nan
+Y :
+       nan        nan   48.17752   48.58967
+  48.13209        nan   48.21475   34.40886
+       nan   56.76685        nan   48.11037
+  63.85575   47.91593        nan        nan
+
+DENEME SAYISI :35
+SENSOR : 
+# 	X	Y
+0	0	39
+1	13	0
+2	74	99
+3	99	81
+WAWE:    68    32 
+WAWE_PRED 
+X :
+       nan        nan   67.63544   67.65884
+  67.74761        nan   68.48744   68.67930
+       nan   16.53768        nan   68.08310
+  42.12715   47.83113        nan        nan
+Y :
+       nan        nan   31.96814   32.19701
+  33.14664        nan   31.89270   31.55655
+       nan   63.90215        nan   31.92714
+  92.37887   53.69164        nan        nan
+
+DENEME SAYISI :36
+SENSOR : 
+# 	X	Y
+0	0	22
+1	21	99
+2	54	0
+3	99	74
+WAWE:    22    93 
+WAWE_PRED 
+X :
+       nan   20.85029        nan        nan
+  18.08377        nan        nan   21.99606
+  22.03927        nan        nan        nan
+  21.89859        nan   21.87423        nan
+Y :
+       nan   93.00187        nan        nan
+  93.75637        nan        nan   93.08326
+  92.64185        nan        nan        nan
+  92.68558        nan   92.58474        nan
+
+DENEME SAYISI :37
+SENSOR : 
+# 	X	Y
+0	0	48
+1	65	99
+2	80	0
+3	99	89
+WAWE:    66    10 
+WAWE_PRED 
+X :
+       nan   66.78589   63.35030   66.61543
+       nan        nan   66.08855   65.92298
+  67.91196   90.22404        nan   96.93565
+       nan        nan   66.04825        nan
+Y :
+       nan   10.35132    4.81994   10.05054
+       nan        nan   10.34002   10.33814
+  12.42271   13.99691        nan    3.69164
+       nan        nan   10.28558        nan
+
+DENEME SAYISI :38
+SENSOR : 
+# 	X	Y
+0	0	62
+1	89	0
+2	89	99
+3	99	81
+WAWE:    67    75 
+WAWE_PRED 
+X :
+       nan        nan   66.72513        nan
+  66.66096        nan        nan        nan
+       nan   66.44977        nan   66.89956
+       nan   66.80471        nan        nan
+Y :
+       nan        nan   75.10563        nan
+  75.42819        nan        nan        nan
+       nan   75.36532        nan   74.94420
+       nan   75.47061        nan        nan
+
+DENEME SAYISI :39
+SENSOR : 
+# 	X	Y
+0	0	59
+1	58	99
+2	91	0
+3	99	49
+WAWE:    77    85 
+WAWE_PRED 
+X :
+       nan   76.93939        nan   70.04501
+       nan        nan   50.83063   67.36289
+  76.89148   77.05826        nan        nan
+  76.89681   77.12431   76.93395        nan
+Y :
+       nan   85.37121        nan   17.66227
+       nan        nan   76.79539   77.62757
+  85.51059   85.53794        nan        nan
+  85.49512   85.63194   85.51759        nan
+
+DENEME SAYISI :40
+SENSOR : 
+# 	X	Y
+0	0	95
+1	18	0
+2	88	99
+3	99	63
+WAWE:    71    63 
+WAWE_PRED 
+X :
+       nan        nan   71.30572   71.00152
+  70.95576        nan   67.06700   91.68896
+       nan   63.58318        nan   71.00497
+  76.46961   71.00335        nan        nan
+Y :
+       nan        nan   63.38523   62.70784
+  62.60741        nan   65.69954   35.97134
+       nan   68.16285        nan   63.52775
+  79.62472   62.56713        nan        nan
+
+DENEME SAYISI :41
+SENSOR : 
+# 	X	Y
+0	0	2
+1	29	99
+2	54	0
+3	99	17
+WAWE:    11    4 
+WAWE_PRED 
+X :
+       nan   11.15646        nan   11.22099
+       nan        nan   10.85646   10.60296
+  10.94803   90.04750        nan        nan
+  10.24580        nan   10.77060        nan
+Y :
+       nan    3.99446        nan    0.40817
+       nan        nan    4.05130    4.10009
+   4.93004   24.04903        nan        nan
+   6.84438        nan    2.99940        nan
+
+DENEME SAYISI :42
+SENSOR : 
+# 	X	Y
+0	0	71
+1	18	99
+2	82	0
+3	99	12
+WAWE:    85    95 
+WAWE_PRED 
+X :
+       nan   84.56625        nan        nan
+       nan        nan        nan   16.81380
+  84.76913   84.52348        nan        nan
+  84.54292   84.57091   80.66352        nan
+Y :
+       nan   95.34233        nan        nan
+       nan        nan        nan   32.34389
+  94.62616   94.63303        nan        nan
+  95.42324   95.42809   94.65723        nan
+
+DENEME SAYISI :43
+SENSOR : 
+# 	X	Y
+0	0	32
+1	54	0
+2	68	99
+3	99	42
+WAWE:    96    64 
+WAWE_PRED 
+X :
+       nan        nan   96.06422        nan
+  96.13030        nan   95.95868        nan
+       nan   31.47868        nan   82.76171
+  96.20709   96.43731   95.36523        nan
+Y :
+       nan        nan   64.25074        nan
+  64.05322        nan   64.16578        nan
+       nan   73.28416        nan   56.84312
+  63.82200   63.85023   63.69766        nan
+
+DENEME SAYISI :44
+SENSOR : 
+# 	X	Y
+0	0	22
+1	67	99
+2	68	0
+3	99	97
+WAWE:    36    52 
+WAWE_PRED 
+X :
+       nan   34.57513        nan        nan
+  26.26238        nan   36.64910   35.71516
+  36.08392   98.29535        nan        nan
+       nan        nan   36.30333        nan
+Y :
+       nan   53.34228        nan        nan
+  60.57545        nan   51.93809   52.55370
+  51.59271   52.56078        nan        nan
+       nan        nan   51.72780        nan
+
+DENEME SAYISI :45
+SENSOR : 
+# 	X	Y
+0	0	29
+1	3	0
+2	13	99
+3	99	26
+WAWE:    76    34 
+WAWE_PRED 
+X :
+       nan        nan   76.48537   76.02130
+  76.55615        nan   76.16940   83.28256
+       nan        nan        nan   76.46082
+  76.48288   76.27776   87.20301        nan
+Y :
+       nan        nan   34.26938   19.07329
+  33.11500        nan   33.96100    7.86269
+       nan        nan        nan   34.24532
+  34.30538   33.72656   46.90050        nan
+
+DENEME SAYISI :46
+SENSOR : 
+# 	X	Y
+0	0	52
+1	8	99
+2	78	0
+3	99	83
+WAWE:    45    76 
+WAWE_PRED 
+X :
+       nan   45.07383        nan   51.12609
+       nan        nan   17.96335   44.77353
+  45.39572   44.43825        nan        nan
+  44.62359        nan   44.82078        nan
+Y :
+       nan   76.56545        nan   56.60809
+       nan        nan   56.82762   76.07653
+  75.96538   75.54725        nan        nan
+  77.37413        nan   75.71603        nan
+
+DENEME SAYISI :47
+SENSOR : 
+# 	X	Y
+0	0	21
+1	49	0
+2	65	99
+3	99	32
+WAWE:    97    81 
+WAWE_PRED 
+X :
+       nan        nan   96.93895        nan
+  96.30775        nan   97.20654        nan
+       nan   28.91212        nan   61.10897
+  97.15987   98.54801   96.72345        nan
+Y :
+       nan        nan   80.99034        nan
+  81.99850        nan   81.47335        nan
+       nan   92.51084        nan   62.54037
+  80.63187   80.66457   80.61339        nan
+
+DENEME SAYISI :48
+SENSOR : 
+# 	X	Y
+0	0	56
+1	85	0
+2	90	99
+3	99	67
+WAWE:    29    74 
+WAWE_PRED 
+X :
+       nan        nan   33.51496   32.70923
+  29.49986        nan        nan        nan
+  27.95152   28.99030        nan   29.27107
+  29.39055   29.36145        nan        nan
+Y :
+       nan        nan   64.86146   44.51592
+  74.20813        nan        nan        nan
+  76.50586   73.82428        nan   73.15436
+  74.38405   74.10441        nan        nan
+
+DENEME SAYISI :49
+SENSOR : 
+# 	X	Y
+0	0	88
+1	2	0
+2	3	99
+3	99	9
+WAWE:    87    54 
+WAWE_PRED 
+X :
+       nan        nan   86.58069   52.36583
+  86.93437        nan   87.00457        nan
+       nan        nan        nan   53.20052
+  86.95334   86.91070   87.11225        nan
+Y :
+       nan        nan   53.14466   10.74114
+  54.03639        nan   53.92588        nan
+       nan        nan        nan   17.95463
+  54.08498   54.07357   54.12715        nan
+
+DENEME SAYISI :50
+SENSOR : 
+# 	X	Y
+0	0	69
+1	8	99
+2	52	0
+3	99	88
+WAWE:    14    59 
+WAWE_PRED 
+X :
+       nan   13.99852    4.40616   14.38989
+       nan        nan   12.47650   14.55139
+  14.90083   35.00241        nan        nan
+   9.79019        nan   14.25398        nan
+Y :
+       nan   58.77817   52.23605   59.33690
+       nan        nan   58.58047   58.86452
+  60.14507   68.59198        nan        nan
+  83.30372        nan   59.74124        nan
+
+DENEME SAYISI :51
+SENSOR : 
+# 	X	Y
+0	0	34
+1	29	99
+2	81	0
+3	99	63
+WAWE:    20    75 
+WAWE_PRED 
+X :
+       nan   20.52923        nan   38.71323
+  16.36541        nan   19.67971   19.85451
+  19.76491   54.27398        nan        nan
+  19.86730        nan   19.89002        nan
+Y :
+       nan   74.41858        nan   10.41193
+  76.27629        nan   74.72795   74.66155
+  74.79779   92.89868        nan        nan
+  74.74802        nan   74.90003        nan
+
+DENEME SAYISI :52
+SENSOR : 
+# 	X	Y
+0	0	42
+1	29	0
+2	96	99
+3	99	61
+WAWE:    20    78 
+WAWE_PRED 
+X :
+       nan        nan   41.33106   32.08782
+  20.03334        nan        nan        nan
+  20.16593   20.14221        nan   20.16391
+  20.16272   20.18203        nan        nan
+Y :
+       nan        nan   42.43366   15.94590
+  78.15397        nan        nan        nan
+  78.08018   78.16639        nan   78.08750
+  78.08198   78.17089        nan        nan
+
+DENEME SAYISI :53
+SENSOR : 
+# 	X	Y
+0	0	55
+1	26	0
+2	63	99
+3	99	55
+WAWE:    36    37 
+WAWE_PRED 
+X :
+       nan        nan   35.90063   36.02301
+  35.60262        nan        nan        nan
+       nan        nan        nan   36.11991
+  36.02301   36.31944        nan        nan
+Y :
+       nan        nan   37.36071   37.61199
+  36.76669        nan        nan        nan
+       nan        nan        nan   37.26477
+  72.38801   36.57197        nan        nan
+
+DENEME SAYISI :54
+SENSOR : 
+# 	X	Y
+0	0	17
+1	25	0
+2	83	99
+3	99	44
+WAWE:    0    37 
+WAWE_PRED 
+X :
+       nan        nan   19.99978        nan
+       nan        nan        nan        nan
+   0.33544    0.21439        nan        nan
+       nan        nan        nan        nan
+Y :
+       nan        nan   17.09304        nan
+       nan        nan        nan        nan
+  36.99719   37.15891        nan        nan
+       nan        nan        nan        nan
+
+DENEME SAYISI :55
+SENSOR : 
+# 	X	Y
+0	0	7
+1	7	0
+2	99	71
+3	99	99
+WAWE:    87    6 
+WAWE_PRED 
+X :
+       nan        nan   86.66263   86.65855
+  86.66614        nan   86.76371   86.78973
+  34.81388   33.16062        nan   99.00000
+   5.16029    6.94024   99.00000        nan
+Y :
+       nan        nan    6.16336    5.81369
+   7.30106        nan    6.14421    5.79641
+  86.36690   75.60173        nan    5.00000
+  93.51290   79.99998    5.00000        nan
+
+DENEME SAYISI :56
+SENSOR : 
+# 	X	Y
+0	0	1
+1	3	99
+2	12	0
+3	99	24
+WAWE:    2    72 
+WAWE_PRED 
+X :
+       nan        nan        nan        nan
+       nan        nan        nan    2.42214
+       nan        nan        nan        nan
+   2.07329        nan    2.25822        nan
+Y :
+       nan        nan        nan        nan
+       nan        nan        nan   72.33960
+       nan        nan        nan        nan
+  71.63625        nan   72.01071        nan
+
+DENEME SAYISI :57
+SENSOR : 
+# 	X	Y
+0	0	63
+1	58	0
+2	90	99
+3	99	42
+WAWE:    88    18 
+WAWE_PRED 
+X :
+       nan        nan   87.98998   87.72264
+  88.08034        nan   88.19255   88.76594
+       nan   44.26220        nan   86.57249
+  98.50407   74.62903        nan        nan
+Y :
+       nan        nan   18.35838   17.83531
+  18.53693        nan   18.35358   17.37532
+       nan   32.55330        nan   18.40618
+  68.66205   31.17563        nan        nan
+
+DENEME SAYISI :58
+SENSOR : 
+# 	X	Y
+0	0	77
+1	57	0
+2	91	99
+3	99	19
+WAWE:    65    73 
+WAWE_PRED 
+X :
+       nan        nan   64.57612   35.80271
+  64.53939        nan   95.23243        nan
+       nan   65.28317        nan   65.43997
+  64.48070   65.62300        nan        nan
+Y :
+       nan        nan   73.57908   23.14887
+  72.94474        nan   62.57843        nan
+       nan   72.86403        nan   72.71066
+  72.09924   72.82460        nan        nan
+
+DENEME SAYISI :59
+SENSOR : 
+# 	X	Y
+0	0	40
+1	2	99
+2	59	0
+3	99	47
+WAWE:    62    77 
+WAWE_PRED 
+X :
+       nan   61.97194        nan   66.28128
+       nan        nan        nan   52.82280
+  61.99883   61.95559        nan        nan
+  61.66491   62.52740   61.23984        nan
+Y :
+       nan   76.65349        nan   11.87899
+       nan        nan        nan   60.10215
+  76.60799   76.60967        nan        nan
+  77.16771   78.20496   76.63394        nan
+
+DENEME SAYISI :60
+SENSOR : 
+# 	X	Y
+0	0	69
+1	42	0
+2	88	99
+3	99	74
+WAWE:    70    6 
+WAWE_PRED 
+X :
+       nan        nan   70.60990   70.42619
+  70.14761        nan   70.01956   70.05372
+       nan   28.55978        nan   69.39707
+       nan   40.54047        nan        nan
+Y :
+       nan        nan    5.94431    5.73920
+   5.43043        nan    6.05657    5.89631
+       nan   25.32071        nan    6.17916
+       nan   28.62949        nan        nan
+
+DENEME SAYISI :61
+SENSOR : 
+# 	X	Y
+0	0	42
+1	10	0
+2	86	99
+3	99	27
+WAWE:    21    82 
+WAWE_PRED 
+X :
+       nan        nan   45.20314        nan
+  21.61969        nan   86.36058        nan
+  20.77194   20.86109        nan   20.92535
+  21.18687   21.07632        nan        nan
+Y :
+       nan        nan   45.43328        nan
+  81.84596        nan   31.66763        nan
+  82.29439   81.95007        nan   81.70643
+  82.07777   81.92126        nan        nan
+
+DENEME SAYISI :62
+SENSOR : 
+# 	X	Y
+0	0	26
+1	7	0
+2	43	99
+3	99	59
+WAWE:    1    94 
+WAWE_PRED 
+X :
+       nan        nan   58.83273        nan
+       nan        nan   72.10776        nan
+   1.30017    1.24269        nan    1.24285
+   1.06338    1.24339        nan        nan
+Y :
+       nan        nan   60.09853        nan
+       nan        nan   68.72232        nan
+  93.98757   94.49143        nan   94.48999
+  93.99168   94.49148        nan        nan
+
+DENEME SAYISI :63
+SENSOR : 
+# 	X	Y
+0	0	62
+1	30	0
+2	62	99
+3	99	25
+WAWE:    38    90 
+WAWE_PRED 
+X :
+       nan        nan   43.44549   10.14512
+  38.45205        nan   76.21347        nan
+  37.16099   37.73277        nan   37.63614
+  37.98111   37.39696        nan        nan
+Y :
+       nan        nan   80.78654   15.76667
+  89.60225        nan   77.22898        nan
+  91.31732   89.66719        nan   89.92242
+  90.24676   89.69551        nan        nan
+
+DENEME SAYISI :64
+SENSOR : 
+# 	X	Y
+0	0	56
+1	18	99
+2	74	0
+3	99	75
+WAWE:    81    26 
+WAWE_PRED 
+X :
+       nan   81.28103        nan   81.34188
+       nan        nan   47.56946   81.43324
+  81.42121   81.64556        nan   85.56802
+       nan        nan   79.60443        nan
+Y :
+       nan   25.92500        nan   26.08997
+       nan        nan    6.96690   26.05709
+  26.30659   26.24227        nan   24.76474
+       nan        nan   26.75260        nan
+
+DENEME SAYISI :65
+SENSOR : 
+# 	X	Y
+0	0	25
+1	81	99
+2	85	0
+3	99	14
+WAWE:    0    13 
+WAWE_PRED 
+X :
+       nan        nan        nan    0.33835
+       nan        nan        nan    0.35468
+   6.48692        nan        nan        nan
+   2.96320        nan    0.33970        nan
+Y :
+       nan        nan        nan   13.00477
+       nan        nan        nan   11.94766
+  35.09554        nan        nan        nan
+  36.62839        nan   15.12062        nan
+
+DENEME SAYISI :66
+SENSOR : 
+# 	X	Y
+0	0	60
+1	84	0
+2	92	99
+3	99	43
+WAWE:    80    83 
+WAWE_PRED 
+X :
+       nan        nan   80.12261   67.97754
+  80.21588        nan        nan        nan
+       nan   80.55982        nan   80.25880
+  80.16379   79.73101        nan        nan
+Y :
+       nan        nan   82.90877   11.79732
+  82.58001        nan        nan        nan
+       nan   82.59505        nan   82.80914
+  82.76427   82.55637        nan        nan
+
+DENEME SAYISI :67
+SENSOR : 
+# 	X	Y
+0	0	73
+1	11	99
+2	53	0
+3	99	24
+WAWE:    86    25 
+WAWE_PRED 
+X :
+       nan   86.51836        nan   86.40734
+       nan        nan        nan   86.41853
+  86.08129   85.93528        nan   92.11106
+  90.27600   95.55774   86.34065        nan
+Y :
+       nan   25.56916        nan   25.36720
+       nan        nan        nan   25.46663
+  24.78048   24.97423        nan   13.37047
+  33.18347   36.18997   24.43042        nan
+
+DENEME SAYISI :68
+SENSOR : 
+# 	X	Y
+0	0	18
+1	9	99
+2	47	0
+3	99	17
+WAWE:    18    88 
+WAWE_PRED 
+X :
+       nan   17.46560        nan        nan
+       nan        nan   10.21513   17.52972
+  17.49186   17.42896        nan        nan
+  17.48328   20.84534   17.47711        nan
+Y :
+       nan   87.84950        nan        nan
+       nan        nan   85.05283   87.89848
+  87.84293   87.82178        nan        nan
+  87.84508   91.53757   87.83798        nan
+
+DENEME SAYISI :69
+SENSOR : 
+# 	X	Y
+0	0	21
+1	3	99
+2	69	0
+3	99	53
+WAWE:    14    25 
+WAWE_PRED 
+X :
+       nan   14.06500    9.07876        nan
+       nan        nan   13.77610   14.11383
+  13.95661   67.05684        nan        nan
+       nan        nan   13.98342        nan
+Y :
+       nan   25.15776    9.48101        nan
+       nan        nan   25.11504   25.16509
+  25.50823   60.63554        nan        nan
+       nan        nan   25.56599        nan
+
+DENEME SAYISI :70
+SENSOR : 
+# 	X	Y
+0	0	78
+1	35	99
+2	42	0
+3	99	85
+WAWE:    89    3 
+WAWE_PRED 
+X :
+       nan   88.73344        nan   89.79727
+       nan        nan        nan   90.77110
+  88.61852   88.61533        nan   88.52196
+       nan        nan   27.73729        nan
+Y :
+       nan    2.25379        nan    3.51804
+       nan        nan        nan    3.41394
+   2.11937    2.18829        nan    3.67220
+       nan        nan   44.43369        nan
+
+DENEME SAYISI :71
+SENSOR : 
+# 	X	Y
+0	0	51
+1	77	0
+2	91	99
+3	99	67
+WAWE:    68    54 
+WAWE_PRED 
+X :
+       nan        nan   67.93874   67.87872
+  67.93769        nan        nan        nan
+       nan   67.90250        nan   68.47090
+  65.70177   68.31771        nan        nan
+Y :
+       nan        nan   53.88582   55.05943
+  53.91029        nan        nan        nan
+       nan   53.90436        nan   53.61773
+  68.52934   53.97279        nan        nan
+
+DENEME SAYISI :72
+SENSOR : 
+# 	X	Y
+0	0	60
+1	6	0
+2	50	99
+3	99	26
+WAWE:    4    81 
+WAWE_PRED 
+X :
+       nan        nan   21.87520        nan
+   7.58501        nan   67.52427        nan
+   3.05641    3.49770        nan    3.50817
+   4.09522    3.52377        nan        nan
+Y :
+       nan        nan   57.66000        nan
+  80.65109        nan   52.17159        nan
+  81.78666   80.62785        nan   80.60137
+  81.61549   80.62865        nan        nan
+
+DENEME SAYISI :73
+SENSOR : 
+# 	X	Y
+0	0	9
+1	24	99
+2	52	0
+3	99	55
+WAWE:    22    6 
+WAWE_PRED 
+X :
+       nan   21.84084        nan   21.81697
+       nan        nan   21.99901   21.69460
+       nan   74.22835        nan        nan
+  11.90486        nan   21.92543        nan
+Y :
+       nan    6.35849        nan    6.16807
+       nan        nan    6.35494    6.36202
+       nan   21.12687        nan        nan
+  27.50066        nan    5.99706        nan
+
+DENEME SAYISI :74
+SENSOR : 
+# 	X	Y
+0	0	37
+1	26	0
+2	88	99
+3	99	35
+WAWE:    91    62 
+WAWE_PRED 
+X :
+       nan        nan   90.49806   89.40991
+  90.73415        nan   89.94202        nan
+       nan   54.21057        nan   90.67419
+  90.50880   90.07963   97.68918        nan
+Y :
+       nan        nan   62.41853    7.98504
+  61.56244        nan   62.38480        nan
+       nan   84.76207        nan   62.43098
+  62.38024   62.24344   63.63668        nan
+
+DENEME SAYISI :75
+SENSOR : 
+# 	X	Y
+0	0	17
+1	26	0
+2	85	99
+3	99	34
+WAWE:    62    41 
+WAWE_PRED 
+X :
+       nan        nan   62.36303   66.60513
+  62.21654        nan   62.85242   80.66196
+  25.78941   43.97793        nan   61.62370
+  61.83432   61.72346        nan        nan
+Y :
+       nan        nan   40.56475   14.13616
+  40.94883        nan   40.37752    0.71763
+  78.47642   51.62595        nan   40.85656
+  41.91910   41.37969        nan        nan
+
+DENEME SAYISI :76
+SENSOR : 
+# 	X	Y
+0	0	58
+1	30	0
+2	59	99
+3	99	30
+WAWE:    47    22 
+WAWE_PRED 
+X :
+       nan        nan   47.09782   47.54335
+  46.81591        nan   46.12554        nan
+       nan   28.33117        nan   47.64569
+  59.09274   47.83625        nan        nan
+Y :
+       nan        nan   21.91344   22.50247
+  21.54846        nan   22.06985        nan
+       nan   27.28234        nan   21.83084
+  63.33783   20.71182        nan        nan
+
+DENEME SAYISI :77
+SENSOR : 
+# 	X	Y
+0	0	76
+1	43	0
+2	50	99
+3	99	94
+WAWE:    28    55 
+WAWE_PRED 
+X :
+       nan    4.55937   27.61198   28.04645
+  27.10931        nan   65.29361   98.07442
+       nan   28.25881        nan   28.65218
+       nan   28.50827        nan        nan
+Y :
+       nan   41.63447   55.03917   55.62417
+  54.39299        nan   52.09709   13.33864
+       nan   54.71571        nan   54.52474
+       nan   54.78231        nan        nan
+
+DENEME SAYISI :78
+SENSOR : 
+# 	X	Y
+0	0	23
+1	50	0
+2	53	99
+3	99	47
+WAWE:    66    97 
+WAWE_PRED 
+X :
+       nan        nan   66.19225        nan
+  66.75719        nan   66.12709        nan
+       nan   39.75554        nan   53.12140
+  66.08206   65.48736   66.21839        nan
+Y :
+       nan        nan   97.06549        nan
+  96.55670        nan   96.66394        nan
+       nan   97.46308        nan   85.66722
+  97.16382   96.76849   97.25302        nan
+
+DENEME SAYISI :79
+SENSOR : 
+# 	X	Y
+0	0	46
+1	55	99
+2	90	0
+3	99	63
+WAWE:    57    14 
+WAWE_PRED 
+X :
+       nan   57.16129        nan   56.90810
+       nan        nan   57.72398   56.40346
+       nan        nan        nan        nan
+  42.94225        nan   57.35796        nan
+Y :
+       nan   14.36092        nan   13.90774
+       nan        nan   14.37716   14.34497
+       nan        nan        nan        nan
+  95.23827        nan   13.52558        nan
+
+DENEME SAYISI :80
+SENSOR : 
+# 	X	Y
+0	0	70
+1	45	99
+2	60	0
+3	99	68
+WAWE:    84    60 
+WAWE_PRED 
+X :
+       nan   84.04960        nan   83.99149
+       nan        nan   19.75370   83.84271
+  83.99200   83.69899        nan   99.10063
+  84.35394   98.61795   83.98833        nan
+Y :
+       nan   59.79660        nan   59.32883
+       nan        nan   49.76178   59.59161
+  59.33282   59.45046        nan   50.66696
+  77.27025   85.32912   59.33431        nan
+
+DENEME SAYISI :81
+SENSOR : 
+# 	X	Y
+0	0	42
+1	28	0
+2	82	99
+3	99	61
+WAWE:    10    61 
+WAWE_PRED 
+X :
+       nan        nan   21.11004   16.02020
+  10.14781        nan   88.73751        nan
+  10.24121   10.20517        nan    9.67029
+   9.66667    9.66747        nan        nan
+Y :
+       nan        nan   45.07854   27.91227
+  60.76521        nan   17.94621        nan
+  60.71440   60.78203        nan   61.80425
+  61.01753   60.62202        nan        nan
+
+DENEME SAYISI :82
+SENSOR : 
+# 	X	Y
+0	0	78
+1	10	0
+2	82	99
+3	99	48
+WAWE:    60    22 
+WAWE_PRED 
+X :
+       nan        nan   59.98324   60.10232
+  59.99806        nan   60.00825   59.58758
+       nan   15.59989        nan   60.23549
+  80.95693   56.46859        nan        nan
+Y :
+       nan        nan   22.08926   22.21729
+  22.10516        nan   22.08210   23.01123
+       nan   54.37909        nan   22.01749
+  91.03749   28.79435        nan        nan
+
+DENEME SAYISI :83
+SENSOR : 
+# 	X	Y
+0	0	60
+1	11	0
+2	86	99
+3	99	61
+WAWE:    96    34 
+WAWE_PRED 
+X :
+       nan        nan   95.79697   95.82979
+  95.82927        nan   95.87181   95.82846
+       nan   20.50673        nan   96.26771
+  95.28203   72.46466        nan        nan
+Y :
+       nan        nan   33.73118   33.85114
+  33.84926        nan   33.74245   33.85129
+       nan   90.83722        nan   33.80357
+  88.07929   67.55644        nan        nan
+
+DENEME SAYISI :84
+SENSOR : 
+# 	X	Y
+0	0	58
+1	24	0
+2	67	99
+3	99	72
+WAWE:    41    92 
+WAWE_PRED 
+X :
+       nan        nan   49.40914   48.87547
+  41.32843        nan   79.77432        nan
+  40.36579   40.62071        nan   40.77777
+  41.04021   40.94453        nan        nan
+Y :
+       nan        nan   78.07937   36.65443
+  91.71061        nan   74.83540        nan
+  92.85753   91.84151        nan   91.28600
+  92.06091   91.78232        nan        nan
+
+DENEME SAYISI :85
+SENSOR : 
+# 	X	Y
+0	0	37
+1	67	99
+2	93	0
+3	99	52
+WAWE:    82    2 
+WAWE_PRED 
+X :
+       nan   81.96595   81.69990   82.22409
+       nan        nan   81.75896   83.38097
+  84.19249        nan        nan        nan
+  68.18824        nan   81.88091        nan
+Y :
+       nan    1.47497    0.86732    2.07659
+       nan        nan    1.44343    1.70265
+   7.13248        nan        nan        nan
+  94.71315        nan    2.19323        nan
+
+DENEME SAYISI :86
+SENSOR : 
+# 	X	Y
+0	0	40
+1	42	0
+2	51	99
+3	99	43
+WAWE:    71    5 
+WAWE_PRED 
+X :
+       nan        nan   71.27661   71.08426
+  70.97688        nan   70.88958   70.92223
+       nan   14.50063        nan   70.71622
+  68.82094   54.64819        nan        nan
+Y :
+       nan        nan    5.16579    4.77493
+   4.55906        nan    5.08299    4.89379
+       nan   10.20926        nan    5.04644
+  79.46462   26.46635        nan        nan
+
+DENEME SAYISI :87
+SENSOR : 
+# 	X	Y
+0	0	76
+1	71	0
+2	75	99
+3	99	39
+WAWE:    34    25 
+WAWE_PRED 
+X :
+       nan   33.91573   33.97501   33.85134
+  48.68021        nan        nan        nan
+       nan   33.95112        nan   33.81438
+  59.09817   33.86011        nan        nan
+Y :
+       nan   24.89716   24.93655   24.85447
+  38.69028        nan        nan        nan
+       nan   24.94979        nan   25.02575
+  92.40682   24.81411        nan        nan
+
+DENEME SAYISI :88
+SENSOR : 
+# 	X	Y
+0	0	35
+1	73	99
+2	83	0
+3	99	93
+WAWE:    91    51 
+WAWE_PRED 
+X :
+       nan   91.27002        nan   91.26794
+       nan        nan   65.42039   91.29028
+  91.33522   90.57961        nan        nan
+       nan        nan        nan        nan
+Y :
+       nan   51.02795        nan   51.03978
+       nan        nan   48.22933   51.03567
+  50.65210   50.77067        nan        nan
+       nan        nan        nan        nan
+
+DENEME SAYISI :89
+SENSOR : 
+# 	X	Y
+0	0	61
+1	18	99
+2	89	0
+3	99	4
+WAWE:    97    58 
+WAWE_PRED 
+X :
+       nan   96.62024        nan        nan
+       nan        nan   31.44338   46.11323
+  96.62520   96.70067        nan        nan
+  96.61846   96.58984   97.89342        nan
+Y :
+       nan   58.00445        nan        nan
+       nan        nan   11.35838   14.90824
+  58.16901   58.15907        nan        nan
+  57.94746   57.94619   57.98866        nan
+
+DENEME SAYISI :90
+SENSOR : 
+# 	X	Y
+0	0	6
+1	73	99
+2	81	0
+3	99	96
+WAWE:    45    39 
+WAWE_PRED 
+X :
+       nan   43.80307        nan   43.31023
+  22.43786        nan   45.57161   44.08795
+  44.89586        nan        nan        nan
+  38.39800        nan   45.18841        nan
+Y :
+       nan   39.80930        nan   40.43838
+  56.57984        nan   38.96931   39.66963
+  38.34408        nan        nan        nan
+  45.84183        nan   38.61745        nan
+
+DENEME SAYISI :91
+SENSOR : 
+# 	X	Y
+0	0	39
+1	5	0
+2	92	99
+3	99	86
+WAWE:    3    44 
+WAWE_PRED 
+X :
+       nan        nan        nan    5.32433
+   2.09629        nan   48.77879        nan
+       nan    3.74452        nan    1.72779
+   3.60573    3.14683        nan        nan
+Y :
+       nan        nan        nan   39.30974
+  43.90408        nan    4.40652        nan
+       nan   43.98208        nan   47.35770
+  42.92978   43.96096        nan        nan
+
+DENEME SAYISI :92
+SENSOR : 
+# 	X	Y
+0	0	38
+1	90	99
+2	92	0
+3	99	5
+WAWE:    19    47 
+WAWE_PRED 
+X :
+       nan        nan    7.37336   10.26993
+       nan        nan   19.10149   19.23694
+  18.84868        nan        nan        nan
+  18.97653        nan   20.37183        nan
+Y :
+       nan        nan   18.69340   20.06569
+       nan        nan   46.87130   46.68758
+  46.47575        nan        nan        nan
+  46.18549        nan   48.79054        nan
+
+DENEME SAYISI :93
+SENSOR : 
+# 	X	Y
+0	0	94
+1	70	0
+2	70	99
+3	99	53
+WAWE:    96    89 
+WAWE_PRED 
+X :
+       nan        nan   96.66124   71.86238
+  96.52611        nan   95.47589        nan
+       nan   44.52411        nan   68.25162
+  96.53285   96.18598   95.36529        nan
+Y :
+       nan        nan   92.97594   29.34520
+  88.78894        nan   89.09596        nan
+       nan   89.09596        nan   71.72264
+  88.91536   88.88985   88.81604        nan
+
+DENEME SAYISI :94
+SENSOR : 
+# 	X	Y
+0	0	81
+1	53	99
+2	58	0
+3	99	24
+WAWE:    59    25 
+WAWE_PRED 
+X :
+       nan   59.23251   34.44462   59.01329
+       nan        nan        nan   59.01939
+  58.65731        nan        nan        nan
+  78.03238        nan   59.00522        nan
+Y :
+       nan   25.26293    7.32043   25.03087
+       nan        nan        nan   25.24522
+  24.65791        nan        nan        nan
+  58.06404        nan   24.64618        nan
+
+DENEME SAYISI :95
+SENSOR : 
+# 	X	Y
+0	0	2
+1	10	0
+2	56	99
+3	99	38
+WAWE:    44    66 
+WAWE_PRED 
+X :
+       nan        nan   43.76736        nan
+  47.91032        nan        nan        nan
+  34.02654        nan        nan   43.93832
+  43.91834   43.63850   90.66391        nan
+Y :
+       nan        nan   66.56329        nan
+  63.55161        nan        nan        nan
+  72.18686        nan        nan   66.49933
+  66.46068   65.91245   99.43704        nan
+
+DENEME SAYISI :96
+SENSOR : 
+# 	X	Y
+0	0	47
+1	78	0
+2	85	99
+3	99	90
+WAWE:    24    43 
+WAWE_PRED 
+X :
+       nan   15.67811   23.74209   23.69585
+  23.39139        nan        nan        nan
+   7.68644   24.33700        nan   23.01612
+  13.39068   24.10150        nan        nan
+Y :
+       nan   28.82868   43.49102   43.19122
+  41.62945        nan        nan        nan
+  69.73585   42.84149        nan   44.30286
+  66.91707   42.54483        nan        nan
+
+DENEME SAYISI :97
+SENSOR : 
+# 	X	Y
+0	0	10
+1	61	99
+2	65	0
+3	99	1
+WAWE:    53    21 
+WAWE_PRED 
+X :
+       nan   53.61308        nan        nan
+       nan        nan   51.84748   52.36599
+  53.38641   76.42613        nan        nan
+  53.18590        nan   52.58390        nan
+Y :
+       nan   20.68092        nan        nan
+       nan        nan   20.86757   20.80858
+  21.76164   21.86065        nan        nan
+  22.63744        nan   21.31396        nan
+
+DENEME SAYISI :98
+SENSOR : 
+# 	X	Y
+0	0	61
+1	1	99
+2	81	0
+3	99	16
+WAWE:    72    98 
+WAWE_PRED 
+X :
+       nan   71.66517        nan        nan
+       nan        nan        nan   14.07471
+  72.28576   71.66240        nan        nan
+  72.52068   71.65149   74.56920        nan
+Y :
+       nan   99.46057        nan        nan
+       nan        nan        nan   29.55340
+  98.28109   98.22383        nan        nan
+  97.82204   97.53563   98.45687        nan
+
+DENEME SAYISI :99
+SENSOR : 
+# 	X	Y
+0	0	51
+1	46	0
+2	89	99
+3	99	67
+WAWE:    8    67 
+WAWE_PRED 
+X :
+       nan        nan   17.92888   12.40677
+   8.49740        nan        nan        nan
+   8.51338    8.50766        nan    7.68872
+   7.66711    7.66866        nan        nan
+Y :
+       nan        nan   49.40154   37.95883
+  66.86802        nan        nan        nan
+  66.85946   66.87378        nan   69.00689
+  67.28543   66.39643        nan        nan
+
