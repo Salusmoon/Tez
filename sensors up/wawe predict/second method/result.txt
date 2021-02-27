@@ -1,0 +1,2021 @@
+DENEME SAYISI :0
+SENSOR : 
+# 	X	Y
+0	0	34
+1	44	99
+2	54	0
+3	99	64
+WAWE:    84    29 
+WAWE_PRED 
+X :
+       nan   84.57461        nan   84.51115
+       nan        nan   18.88632   83.37515
+  84.51071   83.79604        nan   84.49923
+  67.44839        nan   70.85332        nan
+Y :
+       nan   30.05291        nan   28.87062
+       nan        nan   23.04407   29.36095
+  28.86341   29.60061        nan   28.87554
+  85.17772        nan   38.47032        nan
+
+predict with mod
+# 	X	Y	P
+84	29	25
+84	23	5
+84	85	5
+84	38	5
+18	29	5
+70	29	5
+83	29	5
+84	28	5
+67	29	5
+67	28	1
+70	85	1
+70	23	1
+70	28	1
+67	38	1
+67	85	1
+67	23	1
+83	23	1
+83	38	1
+83	85	1
+83	28	1
+18	38	1
+18	85	1
+18	23	1
+18	28	1
+70	38	1
+
+predict with mod and meadin
+# 	X	Y	P
+84	29	36
+
+DENEME SAYISI :1
+SENSOR : 
+# 	X	Y
+0	0	17
+1	18	99
+2	64	0
+3	99	57
+WAWE:    50    3 
+WAWE_PRED 
+X :
+       nan   50.04230        nan   49.93663
+       nan        nan   50.31600   49.66642
+       nan   70.56396        nan        nan
+  25.84576        nan   50.18588        nan
+Y :
+       nan    2.86605        nan    2.49713
+       nan        nan    2.95771    2.74159
+       nan   12.36586        nan        nan
+  62.12202        nan    2.27378        nan
+
+predict with mod
+# 	X	Y	P
+50	2	25
+50	12	5
+50	62	5
+70	2	5
+25	2	5
+70	12	1
+70	62	1
+25	12	1
+25	62	1
+
+predict with mod and meadin
+# 	X	Y	P
+50	2	25
+
+DENEME SAYISI :2
+SENSOR : 
+# 	X	Y
+0	0	4
+1	24	0
+2	62	99
+3	99	14
+WAWE:    51    90 
+WAWE_PRED 
+X :
+       nan        nan   57.69401        nan
+  50.92680        nan   63.87040        nan
+  51.53950   51.32658        nan   51.11060
+  50.90681   50.90052        nan        nan
+Y :
+       nan        nan   85.67865        nan
+  90.06080        nan   85.12550        nan
+  89.69527   89.94030        nan   90.20108
+  90.07263   90.06865        nan        nan
+
+predict with mod
+# 	X	Y	P
+50	90	36
+50	85	12
+57	90	6
+63	90	6
+57	85	2
+63	85	2
+
+predict with mod and meadin
+# 	X	Y	P
+51	90	36
+51	85	12
+
+DENEME SAYISI :3
+SENSOR : 
+# 	X	Y
+0	0	18
+1	20	0
+2	59	99
+3	99	81
+WAWE:    7    89 
+WAWE_PRED 
+X :
+       nan        nan   65.57675        nan
+   6.72516        nan   90.49061        nan
+   6.60747    6.61279        nan    7.16210
+   7.34450    7.35795        nan        nan
+Y :
+       nan        nan   46.07372        nan
+  89.01561        nan   55.95600        nan
+  89.02666   88.99878        nan   86.45899
+  88.95423   89.10768        nan        nan
+
+predict with mod
+# 	X	Y	P
+7	89	30
+7	46	6
+7	55	6
+7	86	6
+65	89	5
+90	89	5
+65	46	1
+65	55	1
+65	86	1
+90	46	1
+90	55	1
+90	86	1
+
+predict with mod and meadin
+# 	X	Y	P
+7	89	30
+7	86	6
+
+DENEME SAYISI :4
+SENSOR : 
+# 	X	Y
+0	0	44
+1	33	0
+2	89	99
+3	99	69
+WAWE:    47    16 
+WAWE_PRED 
+X :
+       nan        nan   47.14377   47.10042
+  47.00605        nan   46.00334        nan
+       nan   40.79592        nan   46.90077
+  28.27901        nan        nan        nan
+Y :
+       nan        nan   16.32493   16.25122
+  16.09166        nan   16.91225        nan
+       nan   19.85786        nan   16.44840
+  90.78399        nan        nan        nan
+
+predict with mod
+# 	X	Y	P
+46	16	20
+46	16	5
+40	16	5
+28	16	5
+46	19	4
+46	90	4
+46	19	1
+46	90	1
+40	19	1
+40	90	1
+28	19	1
+28	90	1
+
+predict with mod and meadin
+# 	X	Y	P
+47	16	25
+47	19	5
+
+DENEME SAYISI :5
+SENSOR : 
+# 	X	Y
+0	0	41
+1	5	99
+2	28	0
+3	99	41
+WAWE:    59    94 
+WAWE_PRED 
+X :
+       nan   58.79209        nan        nan
+       nan        nan        nan   33.43987
+  58.56709   58.80674        nan        nan
+  58.84007   58.78359   59.03604        nan
+Y :
+       nan   94.26601        nan        nan
+       nan        nan        nan   53.09604
+  94.51330   94.43546        nan        nan
+  94.21301   94.17034   94.36035        nan
+
+predict with mod
+# 	X	Y	P
+58	94	36
+58	53	6
+33	94	6
+33	53	1
+
+predict with mod and meadin
+# 	X	Y	P
+58	94	36
+
+DENEME SAYISI :6
+SENSOR : 
+# 	X	Y
+0	0	76
+1	27	99
+2	77	0
+3	99	71
+WAWE:    11    6 
+WAWE_PRED 
+X :
+       nan   11.53429   11.29583   10.94882
+       nan        nan   11.30328   10.78560
+  69.89972        nan        nan        nan
+       nan        nan   11.25316        nan
+Y :
+       nan    6.28101    6.24198    6.18667
+       nan        nan    6.31984    6.40900
+  65.61696        nan        nan        nan
+       nan        nan    5.77523        nan
+
+predict with mod
+# 	X	Y	P
+11	6	36
+11	65	6
+69	6	6
+69	65	1
+
+predict with mod and meadin
+# 	X	Y	P
+11	6	36
+
+DENEME SAYISI :7
+SENSOR : 
+# 	X	Y
+0	0	98
+1	5	0
+2	5	99
+3	99	97
+WAWE:    78    78 
+WAWE_PRED 
+X :
+       nan        nan   78.98662   78.21010
+  78.07219        nan   77.98091        nan
+       nan        nan        nan   78.13464
+       nan        nan        nan        nan
+Y :
+       nan        nan   81.62244   78.24420
+  77.70606        nan   77.79181        nan
+       nan        nan        nan   78.32818
+       nan        nan        nan        nan
+
+predict with mod
+# 	X	Y	P
+78	78	20
+78	81	5
+
+predict with mod and meadin
+# 	X	Y	P
+78	78	20
+78	81	5
+
+DENEME SAYISI :8
+SENSOR : 
+# 	X	Y
+0	0	67
+1	18	99
+2	54	0
+3	99	38
+WAWE:    86    76 
+WAWE_PRED 
+X :
+       nan   86.20503        nan   67.35364
+       nan        nan        nan   58.35653
+  86.18284   86.26463        nan        nan
+  86.13574   86.45402   85.59089        nan
+Y :
+       nan   75.93328        nan   12.46012
+       nan        nan        nan   39.37324
+  76.14488   76.11026        nan        nan
+  76.57834   76.68302   76.39236        nan
+
+predict with mod
+# 	X	Y	P
+85	76	36
+85	12	6
+85	39	6
+67	76	6
+58	76	6
+67	12	1
+67	39	1
+58	12	1
+58	39	1
+
+predict with mod and meadin
+# 	X	Y	P
+86	76	36
+
+DENEME SAYISI :9
+SENSOR : 
+# 	X	Y
+0	0	36
+1	66	99
+2	81	0
+3	99	1
+WAWE:    11    53 
+WAWE_PRED 
+X :
+       nan   17.38097        nan        nan
+  10.69182        nan   11.12441   10.98608
+  11.24041        nan        nan        nan
+  11.05417        nan   10.06196        nan
+Y :
+       nan   45.89454        nan        nan
+  52.90222        nan   52.38810   52.55144
+  52.54247        nan        nan        nan
+  52.66750        nan   50.94022        nan
+
+predict with mod
+# 	X	Y	P
+11	52	25
+17	52	5
+11	45	5
+11	50	5
+10	52	5
+17	45	1
+17	50	1
+10	45	1
+10	50	1
+
+predict with mod and meadin
+# 	X	Y	P
+11	52	30
+11	50	6
+
+DENEME SAYISI :10
+SENSOR : 
+# 	X	Y
+0	0	39
+1	25	0
+2	88	99
+3	99	58
+WAWE:    49    89 
+WAWE_PRED 
+X :
+       nan        nan   64.23075   64.09048
+  48.26692        nan   95.81374        nan
+  49.36868   49.15343        nan   49.24753
+  49.11578   49.43549        nan        nan
+Y :
+       nan        nan   66.82823   10.85021
+  89.69817        nan   59.77060        nan
+  88.62593   89.46353        nan   89.08809
+  88.87625   89.38690        nan        nan
+
+predict with mod
+# 	X	Y	P
+49	89	25
+64	89	10
+49	66	5
+49	10	5
+49	59	5
+49	88	5
+95	89	5
+49	89	5
+64	66	2
+64	59	2
+64	88	2
+64	10	2
+49	66	1
+49	59	1
+49	10	1
+95	66	1
+95	88	1
+95	59	1
+95	10	1
+49	88	1
+
+predict with mod and meadin
+# 	X	Y	P
+49	89	36
+
+DENEME SAYISI :11
+SENSOR : 
+# 	X	Y
+0	0	45
+1	36	0
+2	43	99
+3	99	73
+WAWE:    82    99 
+WAWE_PRED 
+X :
+       nan        nan        nan   98.63068
+  82.65760        nan   81.66517        nan
+       nan        nan        nan   68.48809
+  82.62458   82.59283   81.66022        nan
+Y :
+       nan        nan        nan   42.33556
+  98.87793        nan   99.34017        nan
+       nan        nan        nan   69.92306
+  98.92856   98.90847   98.29380        nan
+
+predict with mod
+# 	X	Y	P
+82	98	25
+98	98	5
+82	42	5
+82	69	5
+68	98	5
+98	42	1
+98	69	1
+68	42	1
+68	69	1
+
+predict with mod and meadin
+# 	X	Y	P
+82	99	25
+
+DENEME SAYISI :12
+SENSOR : 
+# 	X	Y
+0	0	59
+1	14	99
+2	78	0
+3	99	22
+WAWE:    48    38 
+WAWE_PRED 
+X :
+       nan   48.71455   32.65930   47.76481
+       nan        nan   49.46734   48.37850
+  48.64608   53.76348        nan        nan
+  50.60887   77.30408   48.30074        nan
+Y :
+       nan   38.98324   17.68236   36.81215
+       nan        nan   39.42501   38.79012
+  38.81742   42.20231        nan        nan
+  44.42193   70.72096   38.55384        nan
+
+predict with mod
+# 	X	Y	P
+48	38	25
+32	38	5
+77	38	5
+50	38	5
+48	17	5
+49	38	5
+53	38	5
+48	70	5
+48	36	5
+48	44	5
+48	42	5
+32	17	1
+53	70	1
+77	44	1
+77	42	1
+77	36	1
+77	17	1
+50	70	1
+50	44	1
+50	42	1
+50	36	1
+50	17	1
+53	42	1
+53	44	1
+32	36	1
+53	36	1
+53	17	1
+49	70	1
+49	44	1
+49	42	1
+49	36	1
+49	17	1
+32	70	1
+32	44	1
+32	42	1
+77	70	1
+
+predict with mod and meadin
+# 	X	Y	P
+49	39	30
+49	36	6
+49	42	6
+50	39	5
+50	36	1
+50	42	1
+
+DENEME SAYISI :13
+SENSOR : 
+# 	X	Y
+0	0	78
+1	62	0
+2	70	99
+3	99	34
+WAWE:    64    69 
+WAWE_PRED 
+X :
+       nan        nan   64.02614   49.73922
+  63.98539        nan   68.19956        nan
+       nan   66.86150        nan   64.13210
+  64.00492   63.87488   96.31941        nan
+Y :
+       nan        nan   68.92081   36.67461
+  68.63796        nan   68.38623        nan
+       nan   68.49436        nan   68.89996
+  68.77243   68.64107   83.26045        nan
+
+predict with mod
+# 	X	Y	P
+63	68	35
+49	68	7
+68	68	7
+66	68	7
+96	68	7
+63	36	5
+63	83	5
+49	36	1
+49	83	1
+68	36	1
+68	83	1
+66	36	1
+66	83	1
+96	36	1
+96	83	1
+
+predict with mod and meadin
+# 	X	Y	P
+64	68	35
+66	68	7
+68	68	7
+
+DENEME SAYISI :14
+SENSOR : 
+# 	X	Y
+0	0	37
+1	19	0
+2	19	99
+3	99	86
+WAWE:    51    55 
+WAWE_PRED 
+X :
+       nan        nan   51.01952   51.07526
+  50.69543        nan   51.56812   72.46630
+       nan        nan        nan   50.98556
+  44.91376   50.22427        nan        nan
+Y :
+       nan        nan   54.69205   54.53049
+  55.60036        nan   55.09371   35.17605
+       nan        nan        nan   54.66752
+  66.97923   55.86632        nan        nan
+
+predict with mod
+# 	X	Y	P
+50	55	36
+50	35	6
+50	66	6
+72	55	6
+44	55	6
+72	35	1
+72	66	1
+44	35	1
+44	66	1
+
+predict with mod and meadin
+# 	X	Y	P
+51	55	36
+
+DENEME SAYISI :15
+SENSOR : 
+# 	X	Y
+0	0	40
+1	56	0
+2	87	99
+3	99	79
+WAWE:    24    72 
+WAWE_PRED 
+X :
+       nan        nan   38.67259   39.37504
+  24.11355        nan        nan        nan
+  23.80120   23.93510        nan   24.02927
+  23.99204   24.00518        nan        nan
+Y :
+       nan        nan   50.21914   32.95681
+  71.91452        nan        nan        nan
+  72.14814   71.83514        nan   71.61756
+  72.00597   71.86638        nan        nan
+
+predict with mod
+# 	X	Y	P
+23	71	36
+39	71	12
+23	50	6
+23	32	6
+39	50	2
+39	32	2
+
+predict with mod and meadin
+# 	X	Y	P
+24	72	36
+
+DENEME SAYISI :16
+SENSOR : 
+# 	X	Y
+0	0	70
+1	67	0
+2	95	99
+3	99	38
+WAWE:    4    25 
+WAWE_PRED 
+X :
+       nan    3.69036    4.06700    3.90693
+  44.97802        nan        nan        nan
+       nan    3.82216        nan    3.87215
+       nan    3.85329        nan        nan
+Y :
+       nan   24.81712   24.84947   24.83533
+  64.33531        nan        nan        nan
+       nan   25.15075        nan   25.08907
+       nan   25.22881        nan        nan
+
+predict with mod
+# 	X	Y	P
+3	25	36
+3	64	6
+44	25	6
+44	64	1
+
+predict with mod and meadin
+# 	X	Y	P
+3	25	36
+
+DENEME SAYISI :17
+SENSOR : 
+# 	X	Y
+0	0	67
+1	24	99
+2	99	0
+3	99	13
+WAWE:    9    5 
+WAWE_PRED 
+X :
+       nan    8.57515    8.46626    9.35312
+       nan        nan    8.46804    9.37477
+  60.78986        nan        nan        nan
+  57.16154        nan    9.01938        nan
+Y :
+       nan    4.92281    4.90786    5.03525
+       nan        nan    4.94043    4.79518
+  82.22183        nan        nan        nan
+  92.68402        nan   11.13248        nan
+
+predict with mod
+# 	X	Y	P
+9	4	30
+9	82	6
+9	92	6
+9	11	6
+60	4	5
+57	4	5
+60	82	1
+60	92	1
+60	11	1
+57	82	1
+57	92	1
+57	11	1
+
+predict with mod and meadin
+# 	X	Y	P
+9	4	30
+
+DENEME SAYISI :18
+SENSOR : 
+# 	X	Y
+0	0	49
+1	25	99
+2	75	0
+3	99	54
+WAWE:    21    76 
+WAWE_PRED 
+X :
+       nan   20.53566        nan   23.82549
+   9.35679        nan   20.87206   21.37704
+  20.74076   45.93281        nan        nan
+  21.26040        nan   21.53556        nan
+Y :
+       nan   76.09773        nan   24.74416
+  81.68716        nan   76.03471   75.94965
+  75.94107   88.69165        nan        nan
+  75.53291        nan   76.50271        nan
+
+predict with mod
+# 	X	Y	P
+21	76	36
+21	24	6
+21	81	6
+21	88	6
+23	76	6
+9	76	6
+45	76	6
+23	24	1
+23	81	1
+23	88	1
+9	24	1
+9	81	1
+9	88	1
+45	24	1
+45	81	1
+45	88	1
+
+predict with mod and meadin
+# 	X	Y	P
+21	76	36
+23	76	6
+
+DENEME SAYISI :19
+SENSOR : 
+# 	X	Y
+0	0	55
+1	1	0
+2	96	99
+3	99	52
+WAWE:    55    64 
+WAWE_PRED 
+X :
+       nan        nan   55.36008   54.63165
+  55.25043        nan   64.14343   84.51169
+  42.53375   53.74789        nan   55.18672
+  55.27641   55.30689        nan        nan
+Y :
+       nan        nan   63.44164   42.69622
+  64.13183        nan   55.39772    9.04421
+  91.42637   65.37324        nan   63.64076
+  63.97324   64.08402        nan        nan
+
+predict with mod
+# 	X	Y	P
+55	63	30
+55	55	6
+55	9	6
+55	91	6
+55	65	6
+55	42	6
+53	63	5
+84	63	5
+42	63	5
+64	63	5
+42	42	1
+53	42	1
+53	9	1
+53	91	1
+42	65	1
+42	91	1
+42	9	1
+42	55	1
+53	55	1
+84	9	1
+84	65	1
+84	91	1
+84	55	1
+84	42	1
+64	65	1
+64	91	1
+64	9	1
+64	55	1
+64	42	1
+53	65	1
+
+predict with mod and meadin
+# 	X	Y	P
+55	64	35
+55	65	7
+
+DENEME SAYISI :20
+SENSOR : 
+# 	X	Y
+0	0	38
+1	26	0
+2	76	99
+3	99	47
+WAWE:    73    20 
+WAWE_PRED 
+X :
+       nan        nan   73.24414   73.16374
+  72.92578        nan   72.37083   72.02019
+       nan   14.90950        nan   72.80607
+  68.72758   64.34268        nan        nan
+Y :
+       nan        nan   20.38162   20.05069
+  19.10712        nan   20.41709   21.19558
+       nan   49.43796        nan   20.39820
+  68.84853   33.12024        nan        nan
+
+predict with mod
+# 	X	Y	P
+72	20	30
+72	19	6
+72	49	6
+72	68	6
+72	33	6
+64	20	5
+68	20	5
+14	20	5
+14	49	1
+14	68	1
+14	33	1
+14	19	1
+68	19	1
+68	49	1
+68	68	1
+68	33	1
+64	19	1
+64	49	1
+64	68	1
+64	33	1
+
+predict with mod and meadin
+# 	X	Y	P
+73	20	36
+68	20	6
+
+DENEME SAYISI :21
+SENSOR : 
+# 	X	Y
+0	0	93
+1	30	0
+2	41	99
+3	99	44
+WAWE:    21    37 
+WAWE_PRED 
+X :
+       nan        nan   19.99225   21.26241
+       nan        nan   47.07156        nan
+       nan   20.79712        nan   21.34292
+       nan   21.31526        nan        nan
+Y :
+       nan        nan   37.13629   37.60727
+       nan        nan   33.94940        nan
+       nan   36.86878        nan   36.69395
+       nan   36.99426        nan        nan
+
+predict with mod
+# 	X	Y	P
+21	36	20
+21	36	5
+47	36	5
+21	33	4
+21	33	1
+47	33	1
+
+predict with mod and meadin
+# 	X	Y	P
+21	37	25
+21	33	5
+
+DENEME SAYISI :22
+SENSOR : 
+# 	X	Y
+0	0	62
+1	37	99
+2	71	0
+3	99	83
+WAWE:    17    92 
+WAWE_PRED 
+X :
+       nan   30.36558        nan   27.70340
+  16.72451        nan   16.87726   16.83028
+  17.19460        nan        nan        nan
+  16.85723        nan   16.81132        nan
+Y :
+       nan   78.72451        nan   41.16015
+  92.36558        nan   91.91576   92.05066
+  92.10188        nan        nan        nan
+  92.29210        nan   91.87690        nan
+
+predict with mod
+# 	X	Y	P
+16	92	36
+30	92	6
+27	92	6
+16	78	6
+16	41	6
+30	78	1
+30	41	1
+27	78	1
+27	41	1
+
+predict with mod and meadin
+# 	X	Y	P
+17	92	36
+
+DENEME SAYISI :23
+SENSOR : 
+# 	X	Y
+0	0	87
+1	24	0
+2	92	99
+3	99	59
+WAWE:    60    91 
+WAWE_PRED 
+X :
+       nan        nan   60.66333   48.94441
+  60.58237        nan   95.66001        nan
+       nan   59.76192        nan   59.65884
+  60.46843   59.43741        nan        nan
+Y :
+       nan        nan   87.63673   51.15465
+  90.19705        nan   65.86821        nan
+       nan   90.52548        nan   90.92780
+  91.90030   90.65301        nan        nan
+
+predict with mod
+# 	X	Y	P
+59	90	24
+59	87	6
+59	51	6
+59	65	6
+59	91	6
+48	90	4
+95	90	4
+48	87	1
+48	51	1
+48	65	1
+48	91	1
+95	87	1
+95	51	1
+95	65	1
+95	91	1
+
+predict with mod and meadin
+# 	X	Y	P
+60	90	24
+60	87	6
+60	91	6
+
+DENEME SAYISI :24
+SENSOR : 
+# 	X	Y
+0	0	5
+1	24	99
+2	97	0
+3	99	66
+WAWE:    54    64 
+WAWE_PRED 
+X :
+       nan   53.94168        nan   76.85540
+       nan        nan        nan   54.36051
+  54.34683        nan        nan        nan
+  54.39456   69.98991   54.39077        nan
+Y :
+       nan   64.07872        nan   27.20918
+       nan        nan        nan   64.44223
+  63.70624        nan        nan        nan
+  63.66201   99.96359   63.73563        nan
+
+predict with mod
+# 	X	Y	P
+54	63	25
+54	27	5
+54	99	5
+76	63	5
+69	63	5
+76	27	1
+76	99	1
+69	27	1
+69	99	1
+
+predict with mod and meadin
+# 	X	Y	P
+54	64	25
+
+DENEME SAYISI :25
+SENSOR : 
+# 	X	Y
+0	0	92
+1	66	0
+2	77	99
+3	99	58
+WAWE:    91    60 
+WAWE_PRED 
+X :
+       nan        nan   91.29203        nan
+  91.29900        nan   91.32113        nan
+       nan   54.51701        nan   91.31561
+       nan   91.31674        nan        nan
+Y :
+       nan        nan   60.21621        nan
+  60.23624        nan   60.22695        nan
+       nan   64.31629        nan   60.22491
+       nan   60.22879        nan        nan
+
+predict with mod
+# 	X	Y	P
+91	60	25
+91	64	5
+54	60	5
+54	64	1
+
+predict with mod and meadin
+# 	X	Y	P
+91	60	25
+91	64	5
+
+DENEME SAYISI :26
+SENSOR : 
+# 	X	Y
+0	0	53
+1	18	99
+2	27	0
+3	99	21
+WAWE:    71    25 
+WAWE_PRED 
+X :
+       nan   70.75805        nan        nan
+       nan        nan        nan   71.40223
+  70.50902   70.32624        nan   76.84986
+       nan   93.23336   71.11494        nan
+Y :
+       nan   25.26376        nan        nan
+       nan        nan        nan   25.72895
+  24.63667   24.95671        nan    3.87192
+       nan   48.39974   23.53448        nan
+
+predict with mod
+# 	X	Y	P
+70	25	20
+70	3	5
+70	48	5
+70	23	5
+76	25	4
+93	25	4
+76	3	1
+76	48	1
+76	23	1
+93	3	1
+93	48	1
+93	23	1
+
+predict with mod and meadin
+# 	X	Y	P
+71	25	20
+71	23	5
+
+DENEME SAYISI :27
+SENSOR : 
+# 	X	Y
+0	0	48
+1	37	99
+2	58	0
+3	99	63
+WAWE:    59    39 
+WAWE_PRED 
+X :
+       nan   59.32415        nan   59.25113
+       nan        nan   41.98566   59.03102
+  59.26636   58.34715        nan   92.85535
+  53.79236        nan   59.19078        nan
+Y :
+       nan   39.01973        nan   38.54995
+       nan        nan   35.19449   38.91145
+  38.64592   38.66511        nan   16.73964
+  74.57786        nan   38.64833        nan
+
+predict with mod
+# 	X	Y	P
+58	38	36
+58	35	6
+58	16	6
+58	74	6
+41	38	6
+92	38	6
+53	38	6
+41	35	1
+41	16	1
+41	74	1
+92	35	1
+92	16	1
+92	74	1
+53	35	1
+53	16	1
+53	74	1
+
+predict with mod and meadin
+# 	X	Y	P
+59	38	36
+59	35	6
+
+DENEME SAYISI :28
+SENSOR : 
+# 	X	Y
+0	0	60
+1	47	0
+2	94	99
+3	99	22
+WAWE:    77    65 
+WAWE_PRED 
+X :
+       nan        nan   77.17621   54.18023
+  77.19475        nan        nan        nan
+       nan        nan        nan   77.35175
+  77.18687   77.05796        nan        nan
+Y :
+       nan        nan   64.92713    4.81896
+  64.62756        nan        nan        nan
+       nan        nan        nan   64.84102
+  64.75731   64.69130        nan        nan
+
+predict with mod
+# 	X	Y	P
+77	64	25
+77	4	5
+54	64	5
+54	4	1
+
+predict with mod and meadin
+# 	X	Y	P
+77	64	25
+
+DENEME SAYISI :29
+SENSOR : 
+# 	X	Y
+0	0	75
+1	48	0
+2	68	99
+3	99	58
+WAWE:    41    41 
+WAWE_PRED 
+X :
+       nan   14.02800   41.05001   40.84924
+  40.84904        nan   69.94046        nan
+       nan   41.37851        nan   40.73537
+  49.94818   40.84930        nan        nan
+Y :
+       nan   23.54458   40.95090   40.71030
+  40.71005        nan   35.02942        nan
+       nan   40.79951        nan   41.09802
+  93.69823   40.71010        nan        nan
+
+predict with mod
+# 	X	Y	P
+40	40	36
+14	40	6
+40	23	6
+40	35	6
+40	93	6
+69	40	6
+49	40	6
+14	23	1
+14	35	1
+14	93	1
+69	23	1
+69	35	1
+69	93	1
+49	23	1
+49	35	1
+49	93	1
+
+predict with mod and meadin
+# 	X	Y	P
+41	40	36
+
+DENEME SAYISI :30
+SENSOR : 
+# 	X	Y
+0	0	95
+1	87	99
+2	88	0
+3	99	98
+WAWE:    68    3 
+WAWE_PRED 
+X :
+       nan   68.92407   68.19974   68.23915
+       nan        nan   68.30490   63.24980
+  86.70127        nan        nan        nan
+       nan        nan   68.20549        nan
+Y :
+       nan    3.35985    2.81953    2.84870
+       nan        nan    3.47895    4.60876
+  19.95779        nan        nan        nan
+       nan        nan    2.85959        nan
+
+predict with mod
+# 	X	Y	P
+68	3	25
+68	4	5
+68	19	5
+63	3	5
+86	3	5
+63	4	1
+63	19	1
+86	4	1
+86	19	1
+
+predict with mod and meadin
+# 	X	Y	P
+68	3	25
+63	3	5
+68	4	5
+63	4	1
+
+DENEME SAYISI :31
+SENSOR : 
+# 	X	Y
+0	0	57
+1	2	99
+2	32	0
+3	99	54
+WAWE:    16    99 
+WAWE_PRED 
+X :
+       nan   15.99375        nan   13.35048
+       nan        nan        nan   10.64510
+  17.28017   15.99702        nan        nan
+  15.94921   15.99068   15.51481        nan
+Y :
+       nan   99.41829        nan   13.67708
+       nan        nan        nan   87.98809
+  98.91070   98.71122        nan        nan
+  99.43505   99.51077   98.63183        nan
+
+predict with mod
+# 	X	Y	P
+15	98	30
+13	98	6
+10	98	6
+17	98	6
+15	13	5
+15	87	5
+13	13	1
+13	87	1
+10	13	1
+10	87	1
+17	13	1
+17	87	1
+
+predict with mod and meadin
+# 	X	Y	P
+15	99	30
+13	99	6
+17	99	6
+
+DENEME SAYISI :32
+SENSOR : 
+# 	X	Y
+0	0	2
+1	44	0
+2	62	99
+3	99	92
+WAWE:    54    7 
+WAWE_PRED 
+X :
+       nan        nan   53.73210   53.80819
+  53.77118        nan   53.44799   54.18161
+       nan   37.76090        nan   51.96276
+   9.63983   44.77414        nan        nan
+Y :
+       nan        nan    7.37226    6.54741
+   6.96592        nan    7.39835    6.35097
+       nan   10.25054        nan    7.54917
+  55.13260   11.97500        nan        nan
+
+predict with mod
+# 	X	Y	P
+53	7	30
+37	7	6
+44	7	6
+51	7	6
+9	7	6
+53	55	5
+53	11	5
+53	10	5
+9	10	1
+44	55	1
+44	10	1
+9	11	1
+9	55	1
+51	55	1
+51	11	1
+51	10	1
+37	11	1
+37	55	1
+37	10	1
+44	11	1
+
+predict with mod and meadin
+# 	X	Y	P
+53	7	30
+51	7	6
+53	10	5
+53	11	5
+51	10	1
+51	11	1
+
+DENEME SAYISI :33
+SENSOR : 
+# 	X	Y
+0	0	41
+1	33	99
+2	61	0
+3	99	47
+WAWE:    26    95 
+WAWE_PRED 
+X :
+       nan   33.16372        nan        nan
+  26.04063        nan   26.01383   26.05713
+  25.97290   40.99283        nan        nan
+  26.06763        nan   26.13765        nan
+Y :
+       nan   91.00168        nan        nan
+  95.05447        nan   95.10212   95.02551
+  95.08705   99.33860        nan        nan
+  95.04145        nan   95.14757        nan
+
+predict with mod
+# 	X	Y	P
+26	95	36
+33	95	6
+26	91	6
+26	99	6
+40	95	6
+33	91	1
+33	99	1
+40	91	1
+40	99	1
+
+predict with mod and meadin
+# 	X	Y	P
+26	95	36
+26	91	6
+26	99	6
+
+DENEME SAYISI :34
+SENSOR : 
+# 	X	Y
+0	0	80
+1	19	99
+2	27	0
+3	99	18
+WAWE:    33    68 
+WAWE_PRED 
+X :
+       nan   32.43688        nan   26.39521
+       nan        nan   10.72239   33.27741
+  32.44218   32.46525        nan        nan
+  31.74235   49.67729   32.96996        nan
+Y :
+       nan   67.76780        nan   57.52622
+       nan        nan   66.02302   68.14298
+  67.78188   67.78002        nan        nan
+  66.06440   84.34039   67.73743        nan
+
+predict with mod
+# 	X	Y	P
+32	67	30
+32	66	12
+32	57	6
+32	84	6
+26	67	5
+10	67	5
+49	67	5
+26	66	2
+10	66	2
+49	66	2
+26	57	1
+26	84	1
+10	57	1
+10	84	1
+49	57	1
+49	84	1
+
+predict with mod and meadin
+# 	X	Y	P
+32	67	30
+32	66	12
+
+DENEME SAYISI :35
+SENSOR : 
+# 	X	Y
+0	0	15
+1	38	99
+2	69	0
+3	99	99
+WAWE:    97    61 
+WAWE_PRED 
+X :
+       nan   97.23137        nan   96.95025
+       nan        nan   11.38336   97.59654
+  97.27012   97.19900        nan   95.53499
+       nan        nan   80.87668        nan
+Y :
+       nan   60.45882        nan   61.05532
+       nan        nan   33.53755   61.02593
+  60.37586   60.40911        nan   61.15831
+       nan        nan   65.60022        nan
+
+predict with mod
+# 	X	Y	P
+97	60	30
+11	60	6
+95	60	6
+80	60	6
+97	33	5
+97	65	5
+11	33	1
+11	65	1
+95	33	1
+95	65	1
+80	33	1
+80	65	1
+
+predict with mod and meadin
+# 	X	Y	P
+97	61	30
+95	61	6
+97	65	5
+95	65	1
+
+DENEME SAYISI :36
+SENSOR : 
+# 	X	Y
+0	0	25
+1	41	99
+2	82	0
+3	99	27
+WAWE:    3    43 
+WAWE_PRED 
+X :
+       nan   13.63748        nan    3.66522
+   2.72929        nan    2.79849    2.93361
+   2.81655        nan        nan        nan
+   2.95049        nan    3.01468        nan
+Y :
+       nan   36.74815        nan    7.37711
+  42.79188        nan   42.74483   42.65331
+  42.77827        nan        nan        nan
+  42.75654        nan   43.14302        nan
+
+predict with mod
+# 	X	Y	P
+2	42	42
+2	36	7
+2	7	7
+13	42	6
+13	36	1
+13	7	1
+
+predict with mod and meadin
+# 	X	Y	P
+3	42	42
+
+DENEME SAYISI :37
+SENSOR : 
+# 	X	Y
+0	0	19
+1	35	0
+2	89	99
+3	99	38
+WAWE:    11    11 
+WAWE_PRED 
+X :
+       nan   10.77413   10.94946   10.93720
+  12.45622        nan        nan        nan
+       nan   10.90692        nan   10.92539
+   7.33696   10.91518        nan        nan
+Y :
+       nan   11.14532   11.39164   11.37402
+  14.24392        nan        nan        nan
+       nan   11.42956        nan   11.41309
+  30.13314   11.44695        nan        nan
+
+predict with mod
+# 	X	Y	P
+10	11	36
+10	14	6
+10	30	6
+12	11	6
+7	11	6
+12	14	1
+12	30	1
+7	14	1
+7	30	1
+
+predict with mod and meadin
+# 	X	Y	P
+10	11	36
+7	11	6
+10	14	6
+12	11	6
+7	14	1
+12	14	1
+
+DENEME SAYISI :38
+SENSOR : 
+# 	X	Y
+0	0	64
+1	75	0
+2	85	99
+3	99	16
+WAWE:    4    8 
+WAWE_PRED 
+X :
+       nan    4.05982    5.22983    4.04832
+  56.45608        nan        nan        nan
+       nan    4.17560        nan    3.94567
+  46.88427    4.05359        nan        nan
+Y :
+       nan    7.47895    7.57518    7.47813
+  68.88082        nan        nan        nan
+       nan    8.50583        nan    8.71172
+  95.82728    7.41962        nan        nan
+
+predict with mod
+# 	X	Y	P
+4	7	20
+4	8	10
+4	68	5
+4	95	5
+5	7	4
+56	7	4
+46	7	4
+5	8	2
+56	8	2
+46	8	2
+5	68	1
+5	95	1
+56	68	1
+56	95	1
+46	68	1
+46	95	1
+
+predict with mod and meadin
+# 	X	Y	P
+4	8	30
+5	8	6
+
+DENEME SAYISI :39
+SENSOR : 
+# 	X	Y
+0	0	57
+1	63	0
+2	94	99
+3	99	61
+WAWE:    33    22 
+WAWE_PRED 
+X :
+       nan   32.81450   33.08955   32.94200
+  38.13008        nan        nan        nan
+       nan   33.03648        nan   32.66017
+  30.01807   32.92425        nan        nan
+Y :
+       nan   21.96846   22.22815   22.08833
+  27.84358        nan        nan        nan
+       nan   22.27028        nan   22.57078
+  94.45551   22.11848        nan        nan
+
+predict with mod
+# 	X	Y	P
+32	22	36
+32	27	6
+32	94	6
+38	22	6
+30	22	6
+38	27	1
+38	94	1
+30	27	1
+30	94	1
+
+predict with mod and meadin
+# 	X	Y	P
+33	22	36
+30	22	6
+
+DENEME SAYISI :40
+SENSOR : 
+# 	X	Y
+0	0	88
+1	93	99
+2	98	0
+3	99	94
+WAWE:    12    6 
+WAWE_PRED 
+X :
+       nan   11.78895   12.22687   11.50066
+       nan        nan   12.19733    9.04952
+  82.59710        nan        nan        nan
+       nan        nan   12.17423        nan
+Y :
+       nan    6.17825    6.24254    6.13723
+       nan        nan    5.82254    8.64831
+  84.60940        nan        nan        nan
+       nan        nan    5.47155        nan
+
+predict with mod
+# 	X	Y	P
+12	5	25
+12	8	5
+12	84	5
+9	5	5
+82	5	5
+9	8	1
+9	84	1
+82	8	1
+82	84	1
+
+predict with mod and meadin
+# 	X	Y	P
+12	6	25
+9	6	5
+12	8	5
+9	8	1
+
+DENEME SAYISI :41
+SENSOR : 
+# 	X	Y
+0	0	93
+1	77	0
+2	80	99
+3	99	22
+WAWE:    13    62 
+WAWE_PRED 
+X :
+       nan   14.68387   12.74343   13.43028
+  26.65957        nan        nan        nan
+       nan   13.12989        nan   13.04130
+  33.20373   12.82114        nan        nan
+Y :
+       nan   63.07518   62.19876   62.49199
+  72.99054        nan        nan        nan
+       nan   61.50111        nan   61.65954
+  90.06341   61.17886        nan        nan
+
+predict with mod
+# 	X	Y	P
+12	61	25
+14	61	5
+12	72	5
+12	61	5
+12	90	5
+26	61	5
+33	61	5
+14	72	1
+14	61	1
+14	90	1
+26	72	1
+26	61	1
+26	90	1
+33	72	1
+33	61	1
+33	90	1
+
+predict with mod and meadin
+# 	X	Y	P
+13	62	30
+14	62	6
+
+DENEME SAYISI :42
+SENSOR : 
+# 	X	Y
+0	0	41
+1	79	99
+2	84	0
+3	99	44
+WAWE:    4    24 
+WAWE_PRED 
+X :
+       nan    3.96677    4.25716    4.37692
+       nan        nan    4.17348    4.51430
+  15.86554        nan        nan        nan
+   3.35336        nan    4.33221        nan
+Y :
+       nan   24.12667   24.19759   24.22839
+       nan        nan   23.92010   23.58197
+  47.98062        nan        nan        nan
+  58.00586        nan   24.44356        nan
+
+predict with mod
+# 	X	Y	P
+4	24	36
+4	47	6
+4	58	6
+15	24	6
+3	24	6
+15	47	1
+15	58	1
+3	47	1
+3	58	1
+
+predict with mod and meadin
+# 	X	Y	P
+4	24	42
+
+DENEME SAYISI :43
+SENSOR : 
+# 	X	Y
+0	0	4
+1	22	99
+2	35	0
+3	99	50
+WAWE:    84    15 
+WAWE_PRED 
+X :
+       nan   83.99205        nan   83.93401
+       nan        nan        nan   84.35558
+  83.83963   84.15707        nan   84.07666
+  62.62158        nan   61.48051        nan
+Y :
+       nan   14.66675        nan   15.11424
+       nan        nan        nan   14.93519
+  15.80511   14.78830        nan   15.05298
+  60.98229        nan   43.97606        nan
+
+predict with mod
+# 	X	Y	P
+84	15	36
+84	60	6
+84	43	6
+62	15	6
+61	15	6
+62	60	1
+62	43	1
+61	60	1
+61	43	1
+
+predict with mod and meadin
+# 	X	Y	P
+84	15	36
+
+DENEME SAYISI :44
+SENSOR : 
+# 	X	Y
+0	0	52
+1	70	99
+2	86	0
+3	99	84
+WAWE:    0    80 
+WAWE_PRED 
+X :
+       nan   25.86364        nan   16.72307
+       nan        nan        nan    0.53719
+   0.16766        nan        nan        nan
+   0.41457        nan    0.40451        nan
+Y :
+       nan   41.27283        nan   29.54251
+       nan        nan        nan   77.66078
+  79.99950        nan        nan        nan
+  79.99693        nan   80.25287        nan
+
+predict with mod
+# 	X	Y	P
+0	80	12
+0	41	4
+0	29	4
+0	77	4
+25	80	3
+16	80	3
+25	41	1
+25	29	1
+25	77	1
+16	41	1
+16	29	1
+16	77	1
+
+predict with mod and meadin
+# 	X	Y	P
+0	80	12
+0	77	4
+
+DENEME SAYISI :45
+SENSOR : 
+# 	X	Y
+0	0	37
+1	18	0
+2	22	99
+3	99	25
+WAWE:    68    85 
+WAWE_PRED 
+X :
+       nan        nan   67.97525        nan
+  69.04998        nan   67.73841        nan
+       nan        nan        nan   38.13317
+  68.20588   67.56201   67.81266        nan
+Y :
+       nan        nan   85.20592        nan
+  83.65345        nan   84.43986        nan
+       nan        nan        nan   53.79247
+  84.87904   84.54352   84.67518        nan
+
+predict with mod
+# 	X	Y	P
+67	84	25
+67	83	5
+67	53	5
+69	84	5
+38	84	5
+69	83	1
+69	53	1
+38	83	1
+38	53	1
+
+predict with mod and meadin
+# 	X	Y	P
+68	84	30
+69	84	6
+
+DENEME SAYISI :46
+SENSOR : 
+# 	X	Y
+0	0	13
+1	43	99
+2	51	0
+3	99	36
+WAWE:    52    19 
+WAWE_PRED 
+X :
+       nan   51.67539        nan   51.45069
+       nan        nan   48.93146   52.03649
+  51.69172   50.06289        nan        nan
+  49.50439        nan   52.11287        nan
+Y :
+       nan   18.80119        nan   20.53833
+       nan        nan   18.55170   18.84108
+  18.65385   18.64313        nan        nan
+  28.91588        nan   18.63346        nan
+
+predict with mod
+# 	X	Y	P
+51	18	30
+49	18	12
+50	18	6
+51	20	5
+51	28	5
+49	20	2
+49	28	2
+50	20	1
+50	28	1
+
+predict with mod and meadin
+# 	X	Y	P
+51	18	30
+49	18	18
+51	20	5
+49	20	3
+
+DENEME SAYISI :47
+SENSOR : 
+# 	X	Y
+0	0	93
+1	48	99
+2	87	0
+3	99	34
+WAWE:    37    83 
+WAWE_PRED 
+X :
+       nan   36.73741    7.16710   27.47321
+       nan        nan   36.68794   37.35008
+  36.75788   66.96601        nan        nan
+  36.16314        nan   38.67259        nan
+Y :
+       nan   83.28594   55.68201   66.74695
+       nan        nan   83.32151   82.86442
+  83.36370   95.24924        nan        nan
+  81.32836        nan   84.48810        nan
+
+predict with mod
+# 	X	Y	P
+36	83	20
+36	66	5
+36	95	5
+36	81	5
+36	84	5
+36	55	5
+38	83	4
+27	83	4
+66	83	4
+7	83	4
+66	55	1
+38	55	1
+38	95	1
+38	81	1
+66	84	1
+66	81	1
+66	95	1
+66	66	1
+38	66	1
+27	95	1
+27	84	1
+27	81	1
+27	66	1
+27	55	1
+7	84	1
+7	81	1
+7	95	1
+7	66	1
+7	55	1
+38	84	1
+
+predict with mod and meadin
+# 	X	Y	P
+37	83	20
+37	81	5
+37	84	5
+38	83	4
+38	81	1
+38	84	1
+
+DENEME SAYISI :48
+SENSOR : 
+# 	X	Y
+0	0	51
+1	22	99
+2	28	0
+3	99	96
+WAWE:    3    1 
+WAWE_PRED 
+X :
+       nan    4.56465    3.35845    3.43562
+       nan        nan    3.37473    3.07092
+  40.28809   52.27252        nan        nan
+       nan        nan    3.36216        nan
+Y :
+       nan    1.20880    1.11292    1.11817
+       nan        nan    1.42843    1.48692
+  21.38802    4.39194        nan        nan
+       nan        nan    1.19222        nan
+
+predict with mod
+# 	X	Y	P
+3	1	30
+4	1	6
+40	1	6
+52	1	6
+3	21	5
+3	4	5
+4	21	1
+4	4	1
+40	21	1
+40	4	1
+52	21	1
+52	4	1
+
+predict with mod and meadin
+# 	X	Y	P
+3	1	30
+4	1	6
+3	4	5
+4	4	1
+
+DENEME SAYISI :49
+SENSOR : 
+# 	X	Y
+0	0	21
+1	49	99
+2	91	0
+3	99	32
+WAWE:    81    75 
+WAWE_PRED 
+X :
+       nan   80.98947        nan        nan
+       nan        nan   43.55592   64.09094
+  80.77334   81.27832        nan        nan
+  81.33038   80.21755   84.77234        nan
+Y :
+       nan   74.98596        nan        nan
+       nan        nan   59.37221   61.95592
+  75.30880   75.37565        nan        nan
+  74.47099   73.99071   75.74441        nan
+
+predict with mod
+# 	X	Y	P
+80	74	25
+80	59	5
+80	61	5
+80	75	5
+43	74	5
+64	74	5
+84	74	5
+43	59	1
+43	61	1
+43	75	1
+64	59	1
+64	61	1
+64	75	1
+84	59	1
+84	61	1
+84	75	1
+
+predict with mod and meadin
+# 	X	Y	P
+81	75	30
+84	75	6
+
