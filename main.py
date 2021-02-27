@@ -7,9 +7,13 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.backends.backend_pdf import PdfPages
 from math import cos, sin, pi, sqrt, atan2
+import unicodedata
+
 
 
 edge = 100
+
+
 wawe_points = []
 sensor_point =[]
 def build_matrix(edge):  
@@ -19,9 +23,13 @@ def build_matrix(edge):
     d2 = random.randint(1, 99)   #38
     d3 = random.randint(1, 99)   #64
     d4 = random.randint(1, 99)   #73
-    matrix[d1][99] = "A"  #Top level 
-    matrix[d2][99] = "A" # bottom level
-    matrix[d3][99] = "A"   #left side
+    #matrix[d1][99] = "A"  #Top level 
+    #matrix[d2][99] = "A" # bottom level
+    #matrix[d3][99] = "A"   #left side
+    #matrix[d4][99] = "A"   #right side
+    matrix[0][d1] = "A"  #Top level 
+    matrix[99][d2] = "A" # bottom level
+    matrix[d3][0] = "A"   #left side
     matrix[d4][99] = "A"   #right side
     return matrix
 
@@ -136,8 +144,8 @@ def circle(sensor, distance):
     circle = plt.Circle((sensor[0], sensor[1]), distance)
     return circle
 
-def draw_grafik(data, wawe, deneme):
-    plt.figure(figsize=(100,100))
+def draw_grafik(data, wawe, deneme, data2):
+    plt.figure()
     ax = plt.gca()
     for a, b, size, color in zip(data["x"], data["y"], data["r"], data["rgb"]):
 
@@ -145,18 +153,111 @@ def draw_grafik(data, wawe, deneme):
         circle = plt.Circle((a, b), size, color=color, fill=False)
         ax.add_artist(circle)
     
+    
     plt.scatter(data["x"],data["y"], color=data["rgb"], marker = 'x')
-    ax.scatter(wawe_points[0],wawe_points[1],marker = 'o')
+
+    ax.scatter(wawe_points[0],wawe_points[1],marker = 'o', color="white", edgecolors="black")
     plt.scatter(data["x"],data["y"],s=0, facecolors='none')
+    plt.scatter(data2["x"],data2["y"],marker="+",c=data2["P value"])
+    plt.colorbar()
     plt.grid()
     plt.title("deneme {}".format(deneme))
     export_pdf.savefig()
     plt.close
 
+def predic_wawe(array1, array2):
+    x_array=[]
+    y_array=[]
+    for i in range(len(array1)):
+        for j in range(len(array1[i])):
+            if np.isnan(array1[i][j]) :
+                pass
+            else:
+                x_array.append(array1[i][j])
+                y_array.append(array2[i][j])
+    data_x = point_find(x_array, "x")
+    data_y = point_find(y_array, "y")
+    x=[]
+    y=[]
+    p_value=[]
+    for i in range(len(data_x)):
+        for j in range(len(data_y)):
+            x.append(data_x["x"][i])
+            y.append(data_y["y"][j])
+            p_value.append(data_x["Count"][i]*data_y["Count"][j])
+    dict = {"x":x, "y":y, "P value": p_value}
+    data= pd.DataFrame(data=dict)
+    data=data.sort_values(by=["P value"],ascending=False)
+    
+            
+    return data
+
+def point_find(array, plane): 
+    value=[]
+    counts=[]
+    while(len(array) != 0):
+        index = []
+        for i in range(len(array)):
+            if i==0:
+                p = array[i]
+                index.append(i)
+            else:
+                if ( abs(p-array[i])<=1):
+                    p = (p+array[i])/2
+                    index.append(i)
+        value.append(p)
+        counts.append(len(index))
+        array = np.delete(array,index)
+    dict = {plane: value , "Count": counts}
+    data = pd.DataFrame(data=dict)
+    return data
+
+def point_find_median(array):
+    array.sort()
+    mean = np.median(array)
+    print(mean)
+    index= []
+    for i in range(len(array)):
+        if (abs(mean-array[i])<= 5):
+            pass
+        else :
+            index.append(i)
+
+    array=np.delete(array, index)
+    return array
+
+def predic_wawe_median(array1, array2):
+    x_array=[]
+    y_array=[]
+    for i in range(len(array1)):
+        for j in range(len(array1[i])):
+            if np.isnan(array1[i][j]) :
+                pass
+            else:
+                x_array.append(array1[i][j])
+                y_array.append(array2[i][j])
+    x_array=point_find_median(x_array)
+    y_array=point_find_median(y_array)
+    data_x = point_find(x_array, "x")
+    data_y = point_find(y_array, "y")
+    x=[]
+    y=[]
+    p_value=[]
+    for i in range(len(data_x)):
+        for j in range(len(data_y)):
+            x.append(data_x["x"][i])
+            y.append(data_y["y"][j])
+            p_value.append(data_x["Count"][i]*data_y["Count"][j])
+    dict = {"x":x, "y":y, "P value": p_value}
+    data= pd.DataFrame(data=dict)
+    data=data.sort_values(by=["P value"],ascending=False)
+    
+            
+    return data
 
 def intersection(data):
-    x_matrix =  np.empty([len(data["Sensors"]),len(data["Sensors"])],float)
-    y_matrix =  np.empty([len(data["Sensors"]),len(data["Sensors"])],float)
+    x_matrix =  np.empty([len(data["Sensors"]),len(data["Sensors"])])
+    y_matrix =  np.empty([len(data["Sensors"]),len(data["Sensors"])])
     x_matrix[:] = None
     y_matrix[:] = None
 
@@ -216,15 +317,15 @@ def intersection(data):
 
 
 
+
 # deneme ortamları :  1 tane yukarıda, 2 tane L şeklinde, 1 tane random 50 şer  
 
 
 with PdfPages(r'plot.pdf') as export_pdf:
 
-    file = open("result.txt", "w")
+    file = open("tek.txt", "w")
 
-    for deneme in range(100):
-
+    for deneme in range(50):
         matrix = build_matrix(edge)
         wawe_create(matrix)
         wawe_points = wawe_point(matrix, "W")
@@ -237,10 +338,16 @@ with PdfPages(r'plot.pdf') as export_pdf:
         peak_time = delta_time_dif(delta_to_sensor, 0.0001)
         distance_delta = distance_for_delta(peak_time)
         data_sensor = data(sensor_point, distance_delta)
-        draw_grafik(data_sensor, wawe_points, deneme)
         result_matrix = intersection(data_sensor)
         result_x= result_matrix[0]
         result_y = result_matrix[1]
+        wawe_predict= predic_wawe(result_x,result_y)
+        wawe_predict2 = predic_wawe_median(result_x,result_y)
+        draw_grafik(data_sensor, wawe_points, deneme, wawe_predict)
+        draw_grafik(data_sensor,wawe_points,deneme, wawe_predict2)
+        print(deneme)
+        print(data_sensor)
+        print("wawe", wawe_points)
         file.write("DENEME SAYISI :" +  str(deneme) + "\n")
         file.write("SENSOR : \n")
         np.savetxt(file, data_sensor.values[:,:-2], fmt='%d', delimiter="\t", header="\tX\tY")
@@ -252,6 +359,14 @@ with PdfPages(r'plot.pdf') as export_pdf:
         file.write("Y :\n")
         np.savetxt(file, result_y, fmt='%10.5f')
         file.write("\n")
+        file.write("predict with mod\n")
+        np.savetxt(file, wawe_predict, fmt='%d', delimiter="\t", header="\tX\tY\tP")
+        file.write("\n")
+        file.write("predict with mod and meadin\n")
+        np.savetxt(file, wawe_predict2, fmt='%d', delimiter="\t", header="\tX\tY\tP")
+        file.write("\n")
+        
+
 
 
 #print("wawe: " , wawe_points)
@@ -264,6 +379,7 @@ with PdfPages(r'plot.pdf') as export_pdf:
 #print("distance for delta : " , distance_delta)
 #print(data)
 #np.savetxt('output.txt', matrix, fmt='%s')   
+
 
 
 
